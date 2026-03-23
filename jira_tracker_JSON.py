@@ -5,7 +5,7 @@ import traceback
 import requests
 
 from loghoras.application.tracker_service import JiraTrackerService
-from loghoras.infrastructure.jira_client import JiraClient
+from loghoras.infrastructure.nbch_jira_client import NbchJiraClient
 from loghoras.infrastructure.log_repository import MonthlyLogRepository
 from loghoras.shared.config import load_tracker_config
 
@@ -17,7 +17,7 @@ def _print_exception_details(context: str, error: Exception) -> None:
 
 def main() -> int:
     config = load_tracker_config()
-    service = JiraTrackerService(config, JiraClient(config), MonthlyLogRepository(config))
+    service = JiraTrackerService(config, NbchJiraClient(config), MonthlyLogRepository(config))
     now = datetime.now().astimezone()
     config.output_dir.mkdir(parents=True, exist_ok=True)
     try:

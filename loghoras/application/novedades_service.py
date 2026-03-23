@@ -6,7 +6,7 @@ from typing import Any
 
 from loghoras.domain.novedades import build_summary, extract_cds_number
 from loghoras.infrastructure.issue_type_client import IssueTypeClient
-from loghoras.infrastructure.nbch_jira_client import NbchJiraClient
+from loghoras.infrastructure.topaz_jira_client import TopazJiraClient
 from loghoras.infrastructure.novedades_repository import NovedadesRepository
 
 
@@ -14,7 +14,7 @@ class NovedadesSyncService:
     def __init__(
         self,
         repository: NovedadesRepository,
-        jira_client: NbchJiraClient,
+        jira_client: TopazJiraClient,
         issue_type_client: IssueTypeClient,
         user_names: dict[str, str],
     ):
