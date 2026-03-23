@@ -16,7 +16,7 @@ def _load_env() -> None:
 
 @dataclass(frozen=True)
 class TrackerConfig:
-    jira_url: str = 'https://jira.nbch.com.ar'
+    jira_url: str = 'https://nbch.atlassian.net'
     jira_token: str | None = None
     output_dir: Path = field(default_factory=lambda: Path.cwd() / 'resultado')
     novedades_filename: str = 'novedades.json'

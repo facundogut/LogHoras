@@ -32,7 +32,8 @@ class NbchJiraClient:
         return response
 
     def jira_get_json(self, path: str, params: dict[str, Any] | None = None) -> Any:
-        response = self._req_with_backoff('GET', f'{self.config.jira_url}{path}', params=params)
+        base_url = self.config.jira_url.rstrip('/')
+        response = self._req_with_backoff('GET', f'{base_url}{path}', params=params)
         if response.status_code >= 400:
             try:
                 details = response.json()
@@ -42,7 +43,8 @@ class NbchJiraClient:
         return response.json()
 
     def jira_post_json(self, path: str, payload: dict[str, Any]) -> Any:
-        response = self._req_with_backoff('POST', f'{self.config.jira_url}{path}', data=json.dumps(payload))
+        base_url = self.config.jira_url.rstrip('/')
+        response = self._req_with_backoff('POST', f'{base_url}{path}', data=json.dumps(payload))
         if response.status_code >= 400:
             try:
                 details = response.json()
@@ -52,7 +54,7 @@ class NbchJiraClient:
         return response.json()
 
     def build_issue_link(self, key: str) -> str:
-        return f'{self.config.jira_url}/browse/{key}'
+        return f"{self.config.jira_url.rstrip('/')}/browse/{key}"
 
     def search_existing_by_cds(self, cds_num: str) -> dict[str, Any] | None:
         jql = (
