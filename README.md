@@ -19,6 +19,7 @@ Este repositorio reúne scripts de soporte para tres flujos principales:
 - `json_to_csv.py`: utilidad puntual para convertir logs JSON a CSV.
 - `jira_tracker_JSON_antiguo.py`: versión histórica previa del tracker.
 - `run_chain.ps1` / `run_chain.vbs`: scripts de orquestación para ejecutar la cadena completa.
+- Ambos scripts escriben en `logs/chain_YYYYMMDD.log` y ahora capturan también la salida estándar y de error de cada paso para facilitar el diagnóstico.
 
 ### Paquete `loghoras/`
 

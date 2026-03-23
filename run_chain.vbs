@@ -6,7 +6,6 @@ logDir    = workDir & "\logs"
 exportDir = workDir & "\exports"
 pythonw   = "C:\Users\fgperez\AppData\Local\Programs\Python313\pythonw.exe"
 
-' Helpers de FS
 Dim fso: Set fso = CreateObject("Scripting.FileSystemObject")
 If Not fso.FolderExists(workDir)   Then fso.CreateFolder workDir
 If Not fso.FolderExists(logDir)    Then fso.CreateFolder logDir
@@ -14,35 +13,46 @@ If Not fso.FolderExists(exportDir) Then fso.CreateFolder exportDir
 
 logFile = logDir & "\chain_" & Year(Now) & Right("0" & Month(Now),2) & Right("0" & Day(Now),2) & ".log"
 
-' === Helpers ==============================================================
 Function Q(s)
   Q = """" & s & """"
 End Function
 
 Sub WriteLog(msg)
-  Dim ts: Set ts = fso.OpenTextFile(logFile, 8, True, 0) 'ASCII
+  Dim ts: Set ts = fso.OpenTextFile(logFile, 8, True, 0)
   ts.WriteLine "[" & Year(Now) & "-" & Right("0"&Month(Now),2) & "-" & Right("0"&Day(Now),2) & " " & _
                 Right("0"&Hour(Now),2) & ":" & Right("0"&Minute(Now),2) & ":" & Right("0"&Second(Now),2) & "] " & msg
   ts.Close
 End Sub
 
-Function RunStep(exe, args)
-  Dim sh, cmd, exitCode
+Sub WriteDivider(title)
+  WriteLog "----- " & title & " -----"
+End Sub
+
+Function RunStep(stepName, exe, args)
+  Dim sh, cmd, wrappedCmd, exitCode
   Set sh = CreateObject("WScript.Shell")
   cmd = Q(exe) & " " & args
-  WriteLog "START: " & cmd
-  exitCode = sh.Run("cmd.exe /c cd /d " & Q(workDir) & " && " & cmd, 0, True)  ' espera
-  WriteLog "END:   " & cmd & " (exit=" & exitCode & ")"
+  WriteDivider "START " & stepName
+  WriteLog "CMD: " & cmd
+  wrappedCmd = "cmd.exe /c cd /d " & Q(workDir) & " && (" & cmd & ") >> " & Q(logFile) & " 2>&1"
+  exitCode = sh.Run(wrappedCmd, 0, True)
+  If exitCode = 0 Then
+    WriteLog "RESULT: " & stepName & " OK (exit=" & exitCode & ")"
+  Else
+    WriteLog "RESULT: " & stepName & " ERROR (exit=" & exitCode & ")"
+    WriteLog "ABORT: revisar salida capturada arriba en este mismo archivo de log."
+  End If
   RunStep = exitCode
 End Function
 
-Sub RunStepAsync(exe, args)
-  Dim sh, cmd
+Sub RunStepAsync(stepName, exe, args)
+  Dim sh, cmd, wrappedCmd
   Set sh = CreateObject("WScript.Shell")
   cmd = Q(exe) & " " & args
-  WriteLog "START (async): " & cmd
-  ' 0 = oculto, False = NO esperar
-  sh.Run "cmd.exe /c cd /d " & Q(workDir) & " && " & cmd, 0, False
+  WriteDivider "START ASYNC " & stepName
+  WriteLog "CMD: " & cmd
+  wrappedCmd = "cmd.exe /c cd /d " & Q(workDir) & " && (" & cmd & ") >> " & Q(logFile) & " 2>&1"
+  sh.Run wrappedCmd, 0, False
 End Sub
 
 Function FindLatestJsonByName()
@@ -53,19 +63,19 @@ Function FindLatestJsonByName()
   Set folder = fso.GetFolder(workDir & "\resultado")
   For Each f In folder.Files
     If LCase(Right(f.Name, 5)) = ".json" Then
-      base = fso.GetBaseName(f.Name)           ' ej: jira_log_2025-10
+      base = fso.GetBaseName(f.Name)
       If LCase(Left(base, 9)) = "jira_log_" Then
-        rest = Mid(base, 10)                   ' 2025-10 (u otro formato)
+        rest = Mid(base, 10)
         digits = ""
-        For i = 1 To Len(rest)                 ' conservar solo dígitos
+        For i = 1 To Len(rest)
           ch = Mid(rest, i, 1)
           If ch >= "0" And ch <= "9" Then digits = digits & ch
         Next
-        If Len(digits) >= 6 Then               ' YYYYMM
+        If Len(digits) >= 6 Then
           y = CLng(Left(digits, 4))
           m = CLng(Mid(digits, 5, 2))
           If m >= 1 And m <= 12 Then
-            key = y * 100 + m                  ' compara YYYYMM
+            key = y * 100 + m
             If key > latestKey Then
               latestKey  = key
               latestPath = f.Path
@@ -80,9 +90,8 @@ End Function
 
 Function DeriveCsvOutFromJson(jsonPath)
   Dim base, rest, digits, i, ch, monthPart, csvName
-  base = fso.GetBaseName(jsonPath)            ' jira_log_2025-10
-
-  rest = Mid(base, 10)                         ' 2025-10
+  base = fso.GetBaseName(jsonPath)
+  rest = Mid(base, 10)
   digits = ""
   For i = 1 To Len(rest)
     ch = Mid(rest, i, 1)
@@ -90,7 +99,7 @@ Function DeriveCsvOutFromJson(jsonPath)
   Next
 
   If Len(digits) >= 6 Then
-    monthPart = Left(digits,4) & "-" & Mid(digits,5,2) ' YYYY-MM
+    monthPart = Left(digits,4) & "-" & Mid(digits,5,2)
   Else
     monthPart = base
   End If
@@ -98,19 +107,16 @@ Function DeriveCsvOutFromJson(jsonPath)
   csvName = "jira_entries_flat_" & monthPart & ".csv"
   DeriveCsvOutFromJson = exportDir & "\" & csvName
 End Function
-' ========================================================================
 
 WriteLog "=== CHAIN START ==="
 
 Dim rc
-' Paso 1: generar JSON
-rc = RunStep(pythonw, Q(workDir & "\jira_tracker_JSON.py"))
+rc = RunStep("jira_tracker_JSON.py", pythonw, Q(workDir & "\jira_tracker_JSON.py"))
 If rc <> 0 Then
   WriteLog "ABORT: error en paso 1"
   WScript.Quit rc
 End If
 
-' Detectar último JSON y derivar CSV (mismo YYYY-MM)
 Dim jsonIn, csvOut
 jsonIn = FindLatestJsonByName()
 If jsonIn = "" Then
@@ -121,13 +127,11 @@ csvOut = DeriveCsvOutFromJson(jsonIn)
 WriteLog "JSON detectado: " & jsonIn
 WriteLog "CSV destino:    " & csvOut
 
-' Paso 3 (async): convertir JSON -> CSV en paralelo con el paso 2
 Dim argsCSV
 argsCSV = Q(workDir & "\json_to_csv.py") & " " & Q(jsonIn) & " " & Q(csvOut)
-RunStepAsync pythonw, argsCSV
+RunStepAsync "json_to_csv.py", pythonw, argsCSV
 
-' Paso 2: enviar novedades (espera)
-rc = RunStep(pythonw, Q(workDir & "\enviar_novedades.py"))
+rc = RunStep("enviar_novedades.py", pythonw, Q(workDir & "\enviar_novedades.py"))
 If rc <> 0 Then
   WriteLog "ABORT: error en paso 2"
   WScript.Quit rc
