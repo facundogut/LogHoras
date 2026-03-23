@@ -16,7 +16,7 @@ warnings.simplefilter('ignore', InsecureRequestWarning)
 
 # Configuración
 JIRA_TOKEN = os.getenv("TOKEN_JIRA_CDS")
-JIRA_URL = "https://jira.nbch.com.ar"
+JIRA_URL = "https://nbch.atlassian.net"
 JIRA_HEADERS = {
     "Authorization": f"Bearer {JIRA_TOKEN}",
     "Content-Type": "application/json"
