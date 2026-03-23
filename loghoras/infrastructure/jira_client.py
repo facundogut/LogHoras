@@ -44,7 +44,8 @@ class JiraClient:
         return self._search_issues(jql, 'Error JIRA search (recent exits)')
 
     def _search_issues(self, jql: str, error_prefix: str) -> list[dict[str, Any]]:
-        url = f'{self.config.jira_url}/rest/api/2/search'
+        base_url = self.config.jira_url.rstrip('/')
+        url = f'{base_url}/rest/api/2/search'
         start_at = 0
         all_issues: list[dict[str, Any]] = []
         while True:
@@ -71,7 +72,8 @@ class JiraClient:
             start_at = 0
             entries: list[dict[str, Any]] = []
             while True:
-                url = f'{self.config.jira_url}/rest/api/2/issue/{path_base}/changelog'
+                base_url = self.config.jira_url.rstrip('/')
+                url = f'{base_url}/rest/api/2/issue/{path_base}/changelog'
                 response = requests.get(
                     url,
                     headers=self.config.headers,
@@ -106,7 +108,8 @@ class JiraClient:
         for path_base in path_bases:
             if not path_base:
                 continue
-            url = f'{self.config.jira_url}/rest/api/2/issue/{path_base}'
+            base_url = self.config.jira_url.rstrip('/')
+            url = f'{base_url}/rest/api/2/issue/{path_base}'
             response = requests.get(
                 url,
                 headers=self.config.headers,
