@@ -1,0 +1,41 @@
+﻿_id,issue_key,issue_id,assignee_id,assignee_name,summary,entered_at,exited_at,worked_hours
+513834-c00gentaem,CDS-8419,513834,c00gentaem,Externo - Genta Emiliano, [NUCLEO] Reservas - Considerar Impuestos en el Monto reservado - Proceso VTA: Reservas Para Cobranza Automática,2025-11-03T09:00:00-03:00,2025-11-10T08:42:22.023000-03:00,45.0
+511898-c00gentaem,CDS-8183,511898,c00gentaem,Externo - Genta Emiliano,[NUCLEO] Reservas - Excepciones al Bloqueo - Proceso VTA: Reservas Para Cobranza Automática,2025-11-03T09:00:00-03:00,2025-11-10T08:42:44.200000-03:00,45.0
+509797-c00zapicof,CDS-7931,509797,c00zapicof,Externo - Zapico Florencia,Cierre de cuenta vista - op 3432,2025-11-03T09:00:00-03:00,2025-11-04T18:00:02.994732-03:00,18.0
+509797-c00zapicof,CDS-7931,509797,c00zapicof,Externo - Zapico Florencia,Cierre de cuenta vista - op 3432,2025-11-03T09:00:00-03:00,2025-11-04T17:56:16.157000-03:00,17.94
+505306-c00andreet,CDS-7491,505306,c00andreet,Externo - Andreetti Enzo,Cobranza de cuotas de prestamos a la fecha con la acreditación de sueldos ,2025-11-03T09:00:00-03:00,2025-11-26T11:38:21.492038-03:00,155.64
+496296-c00andreet,CDS-6491,496296,c00andreet,Externo - Andreetti Enzo,[Nucleo] Diferencias en los datos al exportar excel mediante oper 7630,2025-11-03T09:00:00-03:00,,180.0
+476839-c00andreet,CDS-4804,476839,c00andreet,Externo - Andreetti Enzo,[Nucleo] CAMARA ENVIADA - INCONVENIENTES EN DIGITALIZACION DE VALORES,2025-11-03T09:00:00-03:00,,180.0
+449357-c00saucecl,CDS-1436,449357,c00saucecl,Externo - Saucedo Clara,RRII-GRANDES EXPOSICIONES RIESGO CREDITO,2025-11-03T09:00:00-03:00,2025-11-26T11:38:21.492038-03:00,155.64
+449353-c00schencl,CDS-1433,449353,c00schencl,Externo - Schenck Lautaro,RRII-EFECTIVO MINIMO y APLICACION DE RECURSOS - INTERFAZ BANDAS - Depositos,2025-11-03T09:55:39.807000-03:00,2025-11-04T15:46:28.830000-03:00,14.85
+449353-c00schencl,CDS-1433,449353,c00schencl,Externo - Schenck Lautaro,RRII-EFECTIVO MINIMO y APLICACION DE RECURSOS - INTERFAZ BANDAS - Depositos,2025-11-12T15:07:52.417000-03:00,2025-11-17T17:19:48.450000-03:00,29.2
+449353-c00schencl,CDS-1433,449353,c00schencl,Externo - Schenck Lautaro,RRII-EFECTIVO MINIMO y APLICACION DE RECURSOS - INTERFAZ BANDAS - Depositos,2025-11-27T11:26:51.177000-03:00,2025-11-27T11:26:54.330000-03:00,0.0
+449409-c00gentaem,CDS-1472,449409,c00gentaem,Externo - Genta Emiliano,RRII-OPERACIONES PASIVAS,2025-11-03T10:23:39.277000-03:00,2025-11-26T11:38:21.492038-03:00,154.25
+515613-c00alvarg,CDS-8622,515613,c00alvarg,Externo - Alvarez Gaston,Liberacion de Linea Base Octubre-2025 - Cambios en Nucleo,2025-11-04T09:36:57.067000-03:00,2025-11-05T12:28:48.887000-03:00,11.86
+515613-c00alvarg,CDS-8622,515613,c00alvarg,Externo - Alvarez Gaston,Liberacion de Linea Base Octubre-2025 - Cambios en Nucleo,2025-11-05T15:32:33.540000-03:00,2025-11-07T10:58:15.367000-03:00,13.43
+516755-c00alvarg,CDS-8758,516755,c00alvarg,Externo - Alvarez Gaston,OP-3320 Caja Forence - Error en la generacion del archivo,2025-11-04T14:34:25.770000-03:00,2025-11-11T17:05:03.692245-03:00,47.51
+508581-c00gentaem,CDS-7806,508581,c00gentaem,Externo - Genta Emiliano,Categoría de Cliente Incorrecta,2025-11-04T17:46:27.523000-03:00,2025-11-07T16:01:43.617000-03:00,25.25
+498013-c00gutiefa,CDS-6689,498013,c00gutiefa,Externo - Gutierrez Facundo,PA Cobro Automático de Comisiones Mantenimiento en cuentas FUCO,2025-11-05T15:56:20.353000-03:00,2025-11-10T14:45:03.126322-03:00,25.81
+498013-c00gutiefa,CDS-6689,498013,c00gutiefa,Externo - Gutierrez Facundo,PA Cobro Automático de Comisiones Mantenimiento en cuentas FUCO,2025-11-05T15:56:20.353000-03:00,2025-11-10T14:41:44.403000-03:00,25.76
+498013-c00gutiefa,CDS-6689,498013,c00gutiefa,Externo - Gutierrez Facundo,PA Cobro Automático de Comisiones Mantenimiento en cuentas FUCO,2025-11-11T10:49:37.680000-03:00,2025-11-11T10:49:41.323000-03:00,0.0
+508081-c00andreet,CDS-7755,508081,c00andreet,Externo - Andreetti Enzo,Incorporar mejoras en tiempos de proceso  GRL - Certificados de Retención,2025-11-07T10:17:33.940000-03:00,2025-11-07T15:27:51.297000-03:00,5.17
+508081-c00andreet,CDS-7755,508081,c00andreet,Externo - Andreetti Enzo,Incorporar mejoras en tiempos de proceso  GRL - Certificados de Retención,2025-11-11T17:07:28.153000-03:00,2025-11-11T17:07:30.493000-03:00,0.0
+448904-c00alvarg,CDS-1354,448904,c00alvarg,Externo - Alvarez Gaston,2.1.17 AFIP - CREDEBEX,2025-11-07T17:09:32.227000-03:00,2025-11-07T17:09:47.320000-03:00,0.0
+509797-c00andreet,CDS-7931,509797,c00andreet,Externo - Andreetti Enzo,Cierre de cuenta vista - op 3432,2025-11-11T08:36:40.397000-03:00,2025-11-26T11:38:21.492038-03:00,101.64
+509797-c00andreet,CDS-7931,509797,c00andreet,Externo - Andreetti Enzo,Cierre de cuenta vista - op 3432,2025-11-24T10:58:20.283000-03:00,2025-11-24T10:58:22.773000-03:00,0.0
+506400-c00schencl,CDS-7588,506400,c00schencl,Externo - Schenck Lautaro,TopazPos Ope 7595 no impacta cuando son mensajes 220 y la cuenta no tiene saldo suficiente,2025-11-11T10:30:33.797000-03:00,2025-11-11T10:40:19.570000-03:00,0.16
+507562-c00schencl,CDS-7688,507562,c00schencl,Externo - Schenck Lautaro,COMPRAS DEBITADAS DE MENOS EN CA,2025-11-11T10:53:26.367000-03:00,2025-11-11T10:53:30.663000-03:00,0.0
+516755-c00andreet,CDS-8758,516755,c00andreet,Externo - Andreetti Enzo,OP-3320 Caja Forence - Error en la generacion del archivo,2025-11-04T14:34:25.770000-03:00,2025-11-11T17:02:41.940000-03:00,47.47
+518444-c00schencl,CDS-8968,518444,c00schencl,Externo - Schenck Lautaro,ECHEQ Nº 258674 - ESTADO DEPOSITADO,2025-11-12T09:54:03.857000-03:00,2025-11-12T14:56:39.993000-03:00,5.04
+516755-c00gutiefa,CDS-8758,516755,c00gutiefa,Externo - Gutierrez Facundo,OP-3320 Caja Forence - Error en la generacion del archivo,2025-11-12T10:09:43.957000-03:00,2025-11-18T12:36:50.077000-03:00,38.45
+447020-c00zapicof,CDS-1074,447020,c00zapicof,Externo - Zapico Florencia,RRII Transparencia - Cambios  (Completo)  - Apartado A,2025-11-13T10:17:09.520000-03:00,2025-11-13T10:25:25.907000-03:00,0.14
+492982-c00schencl,CDS-6221,492982,c00schencl,Externo - Schenck Lautaro,Control FUCO Operaciones de Pasivas,2025-11-21T11:16:07.397000-03:00,2025-11-28T17:30:05.067000-03:00,51.23
+492979-c00saucecl,CDS-6220,492979,c00saucecl,Externo - Saucedo Clara,Control FUCO Operaciones de Contabilidad,2025-11-25T10:46:51.593000-03:00,2025-11-28T17:32:10.973000-03:00,33.76
+449405-c00pererac,CDS-1469,449405,c00pererac,Externo - Perera Cristhian,RRII-OPERACIONES ACTIVAS,2025-11-19T10:35:00.557000-03:00,,70.42
+516755-c00saucecl,CDS-8758,516755,c00saucecl,Externo - Saucedo Clara,OP-3320 Caja Forense - Error en la generacion del archivo,2025-11-17T11:58:59.330000-03:00,2025-11-18T12:36:50.077000-03:00,9.63
+518801-c00gentaem,CDS-9008,518801,c00gentaem,Externo - Genta Emiliano,CDS Categorizacion - Cliente categorizado incorrectamente,2025-11-26T12:26:28.207000-03:00,2025-11-27T16:09:53.217000-03:00,12.72
+511729-c00andreet,CDS-8166,511729,c00andreet,Externo - Andreetti Enzo,operacion 6068 agenda y cobros de gastos de leasing,2025-11-27T11:49:44.910000-03:00,2025-11-27T11:50:00.903000-03:00,0.0
+508594-c00alvarg,CDS-7808,508594,c00alvarg,Externo - Alvarez Gaston,Error Relación Tarjeta - Cuenta en Procesos Masivos,2025-11-14T16:12:55.947000-03:00,2025-11-20T10:16:08.210000-03:00,30.05
+508594-c00alvarg,CDS-7808,508594,c00alvarg,Externo - Alvarez Gaston,Error Relación Tarjeta - Cuenta en Procesos Masivos,2025-11-27T11:51:39.983000-03:00,2025-11-27T12:45:03.330025-03:00,0.89
+486838-c00andreet,CDS-5654,486838,c00andreet,Externo - Andreetti Enzo,Contabilidad en Sucursal 97 Multas de cheques ,2025-11-28T10:09:21.653000-03:00,,7.84
+523083-c00gentaem,CDS-9507,523083,c00gentaem,Externo - Genta Emiliano,DSF - Inconsistencia entre diseños - Tipo asistencia 1,2025-11-28T16:24:25.650000-03:00,2025-11-28T16:57:09.273000-03:00,0.55

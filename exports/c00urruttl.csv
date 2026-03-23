@@ -1,0 +1,7 @@
+_id,issue_key,issue_id,assignee_id,assignee_name,summary,entered_at,exited_at,worked_hours
+464582-c00urruttl,CDS-3629,464582,c00urruttl,Externo - Urrutty Lucia,Persistencia de datos en Cobranza tabla CRE_COBRANZAS_ACREDITADOR  PR-TC,2025-10-01T11:12:37.953000-03:00,2025-10-03T17:10:02.422996-03:00,23.96
+464582-c00urruttl,CDS-3629,464582,c00urruttl,Externo - Urrutty Lucia,Persistencia de datos en Cobranza tabla CRE_COBRANZAS_ACREDITADOR  PR-TC,2025-10-16T14:49:59.657000-03:00,2025-10-16T14:50:03.627000-03:00,0
+509469-c00urruttl,CDS-7899,509469,c00urruttl,Externo - Urrutty Lucia,Activos. DA 774-866. Jur 27,2025-10-14T16:21:02.593000-03:00,2025-10-17T16:03:27.207000-03:00,26.71
+510985-c00urruttl,CDS-8071,510985,c00urruttl,Externo - Urrutty Lucia,DSF - Fecha último repacto de tasa de interes mal informada,2025-10-15T09:27:11.160000-03:00,2025-10-15T10:15:00.653000-03:00,0.8
+448286-c00urruttl,CDS-1255,448286,c00urruttl,Externo - Urrutty Lucia,2.1.16 RRII CREDEB,2025-10-15T14:51:37.177000-03:00,2025-10-15T18:10:02.206860-03:00,3.14
+448286-c00urruttl,CDS-1255,448286,c00urruttl,Externo - Urrutty Lucia,2.1.16 RRII CREDEB,2025-10-15T14:51:37.177000-03:00,2025-10-15T18:08:40.747000-03:00,3.14

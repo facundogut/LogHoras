@@ -1,0 +1,18 @@
+# Archivos de Python
+__pycache__/
+*.pyc
+
+# Entornos virtuales
+.venv/
+env/
+venv/
+
+# Archivos de configuración sensibles
+config.env
+
+# Archivos de salida
+/resultados/
+/logs/
+
+#Versiones anteriores
+/antiguo/

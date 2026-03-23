@@ -1,0 +1,481 @@
+{
+  "513834-c00gentaem": {
+    "issue_key": "CDS-8419",
+    "issue_id": "513834",
+    "assignee_id": "c00gentaem",
+    "assignee_name": "Externo - Genta Emiliano",
+    "summary": " [NUCLEO] Reservas - Considerar Impuestos en el Monto reservado - Proceso VTA: Reservas Para Cobranza Automática",
+    "entries": [
+      {
+        "entered_at": "2025-11-03T09:00:00-03:00",
+        "exited_at": "2025-11-10T08:42:22.023000-03:00",
+        "worked_hours": 45.0
+      }
+    ]
+  },
+  "511898-c00gentaem": {
+    "issue_key": "CDS-8183",
+    "issue_id": "511898",
+    "assignee_id": "c00gentaem",
+    "assignee_name": "Externo - Genta Emiliano",
+    "summary": "[NUCLEO] Reservas - Excepciones al Bloqueo - Proceso VTA: Reservas Para Cobranza Automática",
+    "entries": [
+      {
+        "entered_at": "2025-11-03T09:00:00-03:00",
+        "exited_at": "2025-11-10T08:42:44.200000-03:00",
+        "worked_hours": 45.0
+      }
+    ]
+  },
+  "509797-c00zapicof": {
+    "issue_key": "CDS-7931",
+    "issue_id": "509797",
+    "assignee_id": "c00zapicof",
+    "assignee_name": "Externo - Zapico Florencia",
+    "summary": "Cierre de cuenta vista - op 3432",
+    "entries": [
+      {
+        "entered_at": "2025-11-03T09:00:00-03:00",
+        "exited_at": "2025-11-04T18:00:02.994732-03:00",
+        "worked_hours": 18.0
+      },
+      {
+        "entered_at": "2025-11-03T09:00:00-03:00",
+        "exited_at": "2025-11-04T17:56:16.157000-03:00",
+        "worked_hours": 17.94
+      }
+    ]
+  },
+  "505306-c00andreet": {
+    "issue_key": "CDS-7491",
+    "issue_id": "505306",
+    "assignee_id": "c00andreet",
+    "assignee_name": "Externo - Andreetti Enzo",
+    "summary": "Cobranza de cuotas de prestamos a la fecha con la acreditación de sueldos ",
+    "entries": [
+      {
+        "entered_at": "2025-11-03T09:00:00-03:00",
+        "exited_at": "2025-11-26T11:38:21.492038-03:00",
+        "worked_hours": 155.64
+      }
+    ]
+  },
+  "496296-c00andreet": {
+    "issue_key": "CDS-6491",
+    "issue_id": "496296",
+    "assignee_id": "c00andreet",
+    "assignee_name": "Externo - Andreetti Enzo",
+    "summary": "[Nucleo] Diferencias en los datos al exportar excel mediante oper 7630",
+    "entries": [
+      {
+        "entered_at": "2025-11-03T09:00:00-03:00",
+        "exited_at": null,
+        "worked_hours": 180.0
+      }
+    ]
+  },
+  "476839-c00andreet": {
+    "issue_key": "CDS-4804",
+    "issue_id": "476839",
+    "assignee_id": "c00andreet",
+    "assignee_name": "Externo - Andreetti Enzo",
+    "summary": "[Nucleo] CAMARA ENVIADA - INCONVENIENTES EN DIGITALIZACION DE VALORES",
+    "entries": [
+      {
+        "entered_at": "2025-11-03T09:00:00-03:00",
+        "exited_at": "2025-12-09T13:05:02.859003-03:00",
+        "worked_hours": 238.08
+      }
+    ]
+  },
+  "449357-c00saucecl": {
+    "issue_key": "CDS-1436",
+    "issue_id": "449357",
+    "assignee_id": "c00saucecl",
+    "assignee_name": "Externo - Saucedo Clara",
+    "summary": "RRII-GRANDES EXPOSICIONES RIESGO CREDITO",
+    "entries": [
+      {
+        "entered_at": "2025-11-03T09:00:00-03:00",
+        "exited_at": "2025-11-26T11:38:21.492038-03:00",
+        "worked_hours": 155.64
+      }
+    ]
+  },
+  "449353-c00schencl": {
+    "issue_key": "CDS-1433",
+    "issue_id": "449353",
+    "assignee_id": "c00schencl",
+    "assignee_name": "Externo - Schenck Lautaro",
+    "summary": "RRII-EFECTIVO MINIMO y APLICACION DE RECURSOS - INTERFAZ BANDAS - Depositos",
+    "entries": [
+      {
+        "entered_at": "2025-11-03T09:55:39.807000-03:00",
+        "exited_at": "2025-11-04T15:46:28.830000-03:00",
+        "worked_hours": 14.85
+      },
+      {
+        "entered_at": "2025-11-12T15:07:52.417000-03:00",
+        "exited_at": "2025-11-17T17:19:48.450000-03:00",
+        "worked_hours": 29.2
+      },
+      {
+        "entered_at": "2025-11-27T11:26:51.177000-03:00",
+        "exited_at": "2025-11-27T11:26:54.330000-03:00",
+        "worked_hours": 0.0
+      }
+    ]
+  },
+  "449409-c00gentaem": {
+    "issue_key": "CDS-1472",
+    "issue_id": "449409",
+    "assignee_id": "c00gentaem",
+    "assignee_name": "Externo - Genta Emiliano",
+    "summary": "RRII-OPERACIONES PASIVAS",
+    "entries": [
+      {
+        "entered_at": "2025-11-03T10:23:39.277000-03:00",
+        "exited_at": "2025-11-26T11:38:21.492038-03:00",
+        "worked_hours": 154.25
+      }
+    ]
+  },
+  "515613-c00alvarg": {
+    "issue_key": "CDS-8622",
+    "issue_id": "515613",
+    "assignee_id": "c00alvarg",
+    "assignee_name": "Externo - Alvarez Gaston",
+    "summary": "Liberacion de Linea Base Octubre-2025 - Cambios en Nucleo",
+    "entries": [
+      {
+        "entered_at": "2025-11-04T09:36:57.067000-03:00",
+        "exited_at": "2025-11-05T12:28:48.887000-03:00",
+        "worked_hours": 11.86
+      },
+      {
+        "entered_at": "2025-11-05T15:32:33.540000-03:00",
+        "exited_at": "2025-11-07T10:58:15.367000-03:00",
+        "worked_hours": 13.43
+      }
+    ]
+  },
+  "516755-c00alvarg": {
+    "issue_key": "CDS-8758",
+    "issue_id": "516755",
+    "assignee_id": "c00alvarg",
+    "assignee_name": "Externo - Alvarez Gaston",
+    "summary": "OP-3320 Caja Forence - Error en la generacion del archivo",
+    "entries": [
+      {
+        "entered_at": "2025-11-04T14:34:25.770000-03:00",
+        "exited_at": "2025-11-11T17:05:03.692245-03:00",
+        "worked_hours": 47.51
+      }
+    ]
+  },
+  "508581-c00gentaem": {
+    "issue_key": "CDS-7806",
+    "issue_id": "508581",
+    "assignee_id": "c00gentaem",
+    "assignee_name": "Externo - Genta Emiliano",
+    "summary": "Categoría de Cliente Incorrecta",
+    "entries": [
+      {
+        "entered_at": "2025-11-04T17:46:27.523000-03:00",
+        "exited_at": "2025-11-07T16:01:43.617000-03:00",
+        "worked_hours": 25.25
+      }
+    ]
+  },
+  "498013-c00gutiefa": {
+    "issue_key": "CDS-6689",
+    "issue_id": "498013",
+    "assignee_id": "c00gutiefa",
+    "assignee_name": "Externo - Gutierrez Facundo",
+    "summary": "PA Cobro Automático de Comisiones Mantenimiento en cuentas FUCO",
+    "entries": [
+      {
+        "entered_at": "2025-11-05T15:56:20.353000-03:00",
+        "exited_at": "2025-11-10T14:45:03.126322-03:00",
+        "worked_hours": 25.81
+      },
+      {
+        "entered_at": "2025-11-05T15:56:20.353000-03:00",
+        "exited_at": "2025-11-10T14:41:44.403000-03:00",
+        "worked_hours": 25.76
+      },
+      {
+        "entered_at": "2025-11-11T10:49:37.680000-03:00",
+        "exited_at": "2025-11-11T10:49:41.323000-03:00",
+        "worked_hours": 0.0
+      }
+    ]
+  },
+  "508081-c00andreet": {
+    "issue_key": "CDS-7755",
+    "issue_id": "508081",
+    "assignee_id": "c00andreet",
+    "assignee_name": "Externo - Andreetti Enzo",
+    "summary": "Incorporar mejoras en tiempos de proceso  GRL - Certificados de Retención",
+    "entries": [
+      {
+        "entered_at": "2025-11-07T10:17:33.940000-03:00",
+        "exited_at": "2025-11-07T15:27:51.297000-03:00",
+        "worked_hours": 5.17
+      },
+      {
+        "entered_at": "2025-11-11T17:07:28.153000-03:00",
+        "exited_at": "2025-11-11T17:07:30.493000-03:00",
+        "worked_hours": 0.0
+      }
+    ]
+  },
+  "448904-c00alvarg": {
+    "issue_key": "CDS-1354",
+    "issue_id": "448904",
+    "assignee_id": "c00alvarg",
+    "assignee_name": "Externo - Alvarez Gaston",
+    "summary": "2.1.17 AFIP - CREDEBEX",
+    "entries": [
+      {
+        "entered_at": "2025-11-07T17:09:32.227000-03:00",
+        "exited_at": "2025-11-07T17:09:47.320000-03:00",
+        "worked_hours": 0.0
+      }
+    ]
+  },
+  "509797-c00andreet": {
+    "issue_key": "CDS-7931",
+    "issue_id": "509797",
+    "assignee_id": "c00andreet",
+    "assignee_name": "Externo - Andreetti Enzo",
+    "summary": "Cierre de cuenta vista - op 3432",
+    "entries": [
+      {
+        "entered_at": "2025-11-11T08:36:40.397000-03:00",
+        "exited_at": "2025-11-26T11:38:21.492038-03:00",
+        "worked_hours": 101.64
+      },
+      {
+        "entered_at": "2025-11-24T10:58:20.283000-03:00",
+        "exited_at": "2025-11-24T10:58:22.773000-03:00",
+        "worked_hours": 0.0
+      }
+    ]
+  },
+  "506400-c00schencl": {
+    "issue_key": "CDS-7588",
+    "issue_id": "506400",
+    "assignee_id": "c00schencl",
+    "assignee_name": "Externo - Schenck Lautaro",
+    "summary": "TopazPos Ope 7595 no impacta cuando son mensajes 220 y la cuenta no tiene saldo suficiente",
+    "entries": [
+      {
+        "entered_at": "2025-11-11T10:30:33.797000-03:00",
+        "exited_at": "2025-11-11T10:40:19.570000-03:00",
+        "worked_hours": 0.16
+      }
+    ]
+  },
+  "507562-c00schencl": {
+    "issue_key": "CDS-7688",
+    "issue_id": "507562",
+    "assignee_id": "c00schencl",
+    "assignee_name": "Externo - Schenck Lautaro",
+    "summary": "COMPRAS DEBITADAS DE MENOS EN CA",
+    "entries": [
+      {
+        "entered_at": "2025-11-11T10:53:26.367000-03:00",
+        "exited_at": "2025-11-11T10:53:30.663000-03:00",
+        "worked_hours": 0.0
+      }
+    ]
+  },
+  "516755-c00andreet": {
+    "issue_key": "CDS-8758",
+    "issue_id": "516755",
+    "assignee_id": "c00andreet",
+    "assignee_name": "Externo - Andreetti Enzo",
+    "summary": "OP-3320 Caja Forence - Error en la generacion del archivo",
+    "entries": [
+      {
+        "entered_at": "2025-11-04T14:34:25.770000-03:00",
+        "exited_at": "2025-11-11T17:02:41.940000-03:00",
+        "worked_hours": 47.47
+      }
+    ]
+  },
+  "518444-c00schencl": {
+    "issue_key": "CDS-8968",
+    "issue_id": "518444",
+    "assignee_id": "c00schencl",
+    "assignee_name": "Externo - Schenck Lautaro",
+    "summary": "ECHEQ Nº 258674 - ESTADO DEPOSITADO",
+    "entries": [
+      {
+        "entered_at": "2025-11-12T09:54:03.857000-03:00",
+        "exited_at": "2025-11-12T14:56:39.993000-03:00",
+        "worked_hours": 5.04
+      }
+    ]
+  },
+  "516755-c00gutiefa": {
+    "issue_key": "CDS-8758",
+    "issue_id": "516755",
+    "assignee_id": "c00gutiefa",
+    "assignee_name": "Externo - Gutierrez Facundo",
+    "summary": "OP-3320 Caja Forence - Error en la generacion del archivo",
+    "entries": [
+      {
+        "entered_at": "2025-11-12T10:09:43.957000-03:00",
+        "exited_at": "2025-11-18T12:36:50.077000-03:00",
+        "worked_hours": 38.45
+      }
+    ]
+  },
+  "447020-c00zapicof": {
+    "issue_key": "CDS-1074",
+    "issue_id": "447020",
+    "assignee_id": "c00zapicof",
+    "assignee_name": "Externo - Zapico Florencia",
+    "summary": "RRII Transparencia - Cambios  (Completo)  - Apartado A",
+    "entries": [
+      {
+        "entered_at": "2025-11-13T10:17:09.520000-03:00",
+        "exited_at": "2025-11-13T10:25:25.907000-03:00",
+        "worked_hours": 0.14
+      }
+    ]
+  },
+  "492982-c00schencl": {
+    "issue_key": "CDS-6221",
+    "issue_id": "492982",
+    "assignee_id": "c00schencl",
+    "assignee_name": "Externo - Schenck Lautaro",
+    "summary": "Control FUCO Operaciones de Pasivas",
+    "entries": [
+      {
+        "entered_at": "2025-11-21T11:16:07.397000-03:00",
+        "exited_at": "2025-11-28T17:30:05.067000-03:00",
+        "worked_hours": 51.23
+      }
+    ]
+  },
+  "492979-c00saucecl": {
+    "issue_key": "CDS-6220",
+    "issue_id": "492979",
+    "assignee_id": "c00saucecl",
+    "assignee_name": "Externo - Saucedo Clara",
+    "summary": "Control FUCO Operaciones de Contabilidad",
+    "entries": [
+      {
+        "entered_at": "2025-11-25T10:46:51.593000-03:00",
+        "exited_at": "2025-11-28T17:32:10.973000-03:00",
+        "worked_hours": 33.76
+      }
+    ]
+  },
+  "449405-c00pererac": {
+    "issue_key": "CDS-1469",
+    "issue_id": "449405",
+    "assignee_id": "c00pererac",
+    "assignee_name": "Externo - Perera Cristhian",
+    "summary": "RRII-OPERACIONES ACTIVAS",
+    "entries": [
+      {
+        "entered_at": "2025-11-19T10:35:00.557000-03:00",
+        "exited_at": "2025-12-04T15:15:01.960057-03:00",
+        "worked_hours": 103.67
+      }
+    ]
+  },
+  "516755-c00saucecl": {
+    "issue_key": "CDS-8758",
+    "issue_id": "516755",
+    "assignee_id": "c00saucecl",
+    "assignee_name": "Externo - Saucedo Clara",
+    "summary": "OP-3320 Caja Forense - Error en la generacion del archivo",
+    "entries": [
+      {
+        "entered_at": "2025-11-17T11:58:59.330000-03:00",
+        "exited_at": "2025-11-18T12:36:50.077000-03:00",
+        "worked_hours": 9.63
+      }
+    ]
+  },
+  "518801-c00gentaem": {
+    "issue_key": "CDS-9008",
+    "issue_id": "518801",
+    "assignee_id": "c00gentaem",
+    "assignee_name": "Externo - Genta Emiliano",
+    "summary": "CDS Categorizacion - Cliente categorizado incorrectamente",
+    "entries": [
+      {
+        "entered_at": "2025-11-26T12:26:28.207000-03:00",
+        "exited_at": "2025-11-27T16:09:53.217000-03:00",
+        "worked_hours": 12.72
+      }
+    ]
+  },
+  "511729-c00andreet": {
+    "issue_key": "CDS-8166",
+    "issue_id": "511729",
+    "assignee_id": "c00andreet",
+    "assignee_name": "Externo - Andreetti Enzo",
+    "summary": "operacion 6068 agenda y cobros de gastos de leasing",
+    "entries": [
+      {
+        "entered_at": "2025-11-27T11:49:44.910000-03:00",
+        "exited_at": "2025-11-27T11:50:00.903000-03:00",
+        "worked_hours": 0.0
+      }
+    ]
+  },
+  "508594-c00alvarg": {
+    "issue_key": "CDS-7808",
+    "issue_id": "508594",
+    "assignee_id": "c00alvarg",
+    "assignee_name": "Externo - Alvarez Gaston",
+    "summary": "Error Relación Tarjeta - Cuenta en Procesos Masivos",
+    "entries": [
+      {
+        "entered_at": "2025-11-14T16:12:55.947000-03:00",
+        "exited_at": "2025-11-20T10:16:08.210000-03:00",
+        "worked_hours": 30.05
+      },
+      {
+        "entered_at": "2025-11-27T11:51:39.983000-03:00",
+        "exited_at": "2025-11-27T12:45:03.330025-03:00",
+        "worked_hours": 0.89
+      }
+    ]
+  },
+  "486838-c00andreet": {
+    "issue_key": "CDS-5654",
+    "issue_id": "486838",
+    "assignee_id": "c00andreet",
+    "assignee_name": "Externo - Andreetti Enzo",
+    "summary": "Contabilidad en Sucursal 97 Multas de cheques ",
+    "entries": [
+      {
+        "entered_at": "2025-11-28T10:09:21.653000-03:00",
+        "exited_at": "2025-12-01T10:35:01.936690-03:00",
+        "worked_hours": 9.43
+      }
+    ]
+  },
+  "523083-c00gentaem": {
+    "issue_key": "CDS-9507",
+    "issue_id": "523083",
+    "assignee_id": "c00gentaem",
+    "assignee_name": "Externo - Genta Emiliano",
+    "summary": "DSF - Inconsistencia entre diseños - Tipo asistencia 1",
+    "entries": [
+      {
+        "entered_at": "2025-11-28T16:24:25.650000-03:00",
+        "exited_at": "2025-11-28T16:57:09.273000-03:00",
+        "worked_hours": 0.55
+      }
+    ]
+  }
+}

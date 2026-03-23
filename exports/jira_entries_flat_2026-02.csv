@@ -1,0 +1,40 @@
+﻿_id,issue_key,issue_id,assignee_id,assignee_name,summary,entered_at,exited_at,worked_hours
+536410-c00alvarg,CDS-10726,536410,c00alvarg,Externo - Alvarez Gaston,Liberación de Linea Base Diciembre 2025 /Enero 2026,2026-02-02T09:00:00-03:00,2026-02-04T13:10:02.529795-03:00,22.17
+532033-c00schencl,CDS-10339,532033,c00schencl,Externo - Schenck Lautaro,"Envío de archivo Seguro Saldo Deudor para PRESTAMOS - EL SURCO, CÍA 20-",2026-02-02T09:00:00-03:00,2026-02-09T11:03:08.333000-03:00,47.05
+532033-c00schencl,CDS-10339,532033,c00schencl,Externo - Schenck Lautaro,"Envío de archivo Seguro Saldo Deudor para PRESTAMOS - EL SURCO, CÍA 20-",2026-02-20T16:00:31.707000-03:00,2026-02-20T16:01:18.663000-03:00,0.01
+528145-c00zapicof,CDS-9970,528145,c00zapicof,Externo - Zapico Florencia,Error Proceso - RPT - RRII SIRCREB,2026-02-02T09:00:00-03:00,2026-02-04T08:53:31.880000-03:00,18.0
+528145-c00zapicof,CDS-9970,528145,c00zapicof,Externo - Zapico Florencia,Error Proceso - RPT - RRII SIRCREB,2026-02-18T09:56:22.413000-03:00,2026-02-23T12:40:18.530000-03:00,29.73
+498013-c00andreet,CDS-6689,498013,c00andreet,Externo - Andreetti Enzo,[Nucleo] PA Cobro Automático de Comisiones Mantenimiento en cuentas FUCO,2026-02-02T09:00:00-03:00,,180.0
+496296-c00andreet,CDS-6491,496296,c00andreet,Externo - Andreetti Enzo,[Nucleo] Diferencias en los datos al exportar excel mediante oper 7630,2026-02-02T09:00:00-03:00,,180.0
+483080-c00gutiefa,CDS-5323,483080,c00gutiefa,Externo - Gutierrez Facundo,DD - ITF 2.8.10 - SNP_ADHESIONES: MARCA DE RECHAZO INCORRECTO. OPERACIONES NO MONETARIAS.,2026-02-02T09:00:00-03:00,2026-02-04T15:42:11.767000-03:00,24.7
+454925-c00saucecl,CDS-2414,454925,c00saucecl,Externo - Saucedo Clara,"OP 02, 07 y 40 no graba la bitácora de impuestos",2026-02-02T09:00:00-03:00,2026-02-06T12:06:06.340000-03:00,39.1
+446504-c00gentaem,CDS-991,446504,c00gentaem,Externo - Genta Emiliano,[Nucleo] Clasificación - Exceso con producto 71201 - Cesa cálculo de días de atraso,2026-02-02T09:00:00-03:00,2026-02-02T09:39:33.263000-03:00,0.66
+535394-c00andreet,CDS-10641,535394,c00andreet,Externo - Andreetti Enzo,[Nucleo] Pago parcial con subsidio de Leasing - IVA cobrado incorrecto,2026-02-02T09:08:54.953000-03:00,,179.85
+481581-c00urruttl,CDS-5214,481581,c00urruttl,Externo - Urrutty Lucia,PA 8606 Y 8607 Incidente Cobro de Impuestos por cheques que dejan las CA con saldo negativo,2026-02-02T09:08:18.617000-03:00,2026-02-03T10:07:10.647000-03:00,9.98
+481581-c00urruttl,CDS-5214,481581,c00urruttl,Externo - Urrutty Lucia,PA 8606 Y 8607 Incidente Cobro de Impuestos por cheques que dejan las CA con saldo negativo,2026-02-20T11:21:44.760000-03:00,,51.64
+534087-c00pererac,CDS-10532,534087,c00pererac,Externo - Perera Cristhian,Devoluciones de SIRCREB - Información de la DDJJ,2026-02-02T09:21:31.793000-03:00,2026-02-04T08:40:01.804548-03:00,17.64
+520313-c00alvarg,CDS-9196,520313,c00alvarg,Externo - Alvarez Gaston,Impuesto CREDEB sobre débito cobro Tarjeta TUYA,2026-02-02T09:22:36.487000-03:00,2026-02-09T17:45:02.472625-03:00,53.37
+540297-c00urruttl,CDS-11154,540297,c00urruttl,Externo - Urrutty Lucia,Inconsistencias en los recibos de Sueldos ,2026-02-03T10:37:51.183000-03:00,2026-02-04T12:45:03.139920-03:00,11.12
+536834-c00zapicof,CDS-10776,536834,c00zapicof,Externo - Zapico Florencia,Procesos de rendición de impuestos: RPT - RRII CREDEB SEMANAL y RPT - RRII CREDEB,2026-02-04T10:26:40.933000-03:00,2026-02-06T14:27:42.153000-03:00,22.02
+488360-c00urruttl,CDS-5762,488360,c00urruttl,Externo - Urrutty Lucia,Soportes agendados posterior a la fecha,2026-02-04T12:45:15.707000-03:00,2026-02-06T11:19:54.250000-03:00,16.58
+449367-c00zapicof,CDS-1443,449367,c00zapicof,Externo - Zapico Florencia,RRII-IERIC - ANUAL,2026-02-06T11:07:35.743000-03:00,2026-02-12T09:47:32.487000-03:00,34.67
+449367-c00zapicof,CDS-1443,449367,c00zapicof,Externo - Zapico Florencia,RRII-IERIC - ANUAL,2026-02-23T16:23:53.653000-03:00,2026-02-23T16:34:27.837000-03:00,0.18
+469744-c00gutiefa,CDS-4176,469744,c00gutiefa,Externo - Gutierrez Facundo,Ajuste - Alta Masiva,2026-02-06T11:53:02.400000-03:00,2026-02-09T16:19:30.233000-03:00,13.44
+542836-c00gutiefa,CDS-11347,542836,c00gutiefa,Externo - Gutierrez Facundo,OP6630 - Error carga garantia Hipotecaria/Prendaria - Numeradores ,2026-02-10T12:38:18.860000-03:00,2026-02-10T17:21:53.380000-03:00,4.73
+539419-c00schencl,CDS-11058,539419,c00schencl,Externo - Schenck Lautaro,Reservas - Operación nueva para detallar los préstamos que componen las Reservas PA (Tipo 2) generadas,2026-02-11T08:26:50.077000-03:00,2026-02-24T14:39:18.200000-03:00,86.66
+511495-c00saucecl,CDS-8133,511495,c00saucecl,Externo - Saucedo Clara,OP7004 - Cronograma Original y Detalle Pagos - Actualización de Tasas de Préstamos,2026-02-11T08:29:09.307000-03:00,2026-02-18T12:00:34.067000-03:00,48.01
+498605-c00gutiefa,CDS-6751,498605,c00gutiefa,Externo - Gutierrez Facundo,[Nucleo] Operacion 3682 exoneración/pago comisiones pendientes,2026-02-13T12:03:34.750000-03:00,2026-02-13T12:03:57.083000-03:00,0.01
+530408-c00gutiefa,CDS-10195,530408,c00gutiefa,Externo - Gutierrez Facundo,Vulnerabilidad en el LOG de Sueldos,2026-02-18T09:37:55.320000-03:00,2026-02-19T10:48:16.217000-03:00,10.17
+471442-c00andreet,CDS-4341,471442,c00andreet,Externo - Andreetti Enzo,[Nucleo] Informacion de Cobranzas de Prestamos - Persistencia de datos,2026-02-18T09:57:54.777000-03:00,,71.03
+525112-c00gutiefa,CDS-9710,525112,c00gutiefa,Externo - Gutierrez Facundo,OP3408 - Error en Inicio de proceso de inmovilizacion,2026-02-18T15:57:05.930000-03:00,2026-02-18T16:15:02.151913-03:00,0.3
+545389-c00gentaem,CDS-11543,545389,c00gentaem,Externo - Genta Emiliano,Memos - Prestamos - Intereses Negativos,2026-02-20T15:24:35.647000-03:00,,47.59
+454925-c00pererac,CDS-2414,454925,c00pererac,Externo - Perera Cristhian,"OP 02, 07 y 40 no graba la bitácora de impuestos",2026-02-23T09:51:38.933000-03:00,,44.14
+535821-c00andreet,CDS-10680,535821,c00andreet,Externo - Andreetti Enzo,[Núcleo] Caja Forense - PA - Descripción del concepto ,2026-02-24T10:06:12.047000-03:00,,34.9
+545926-c00zapicof,CDS-11588,545926,c00zapicof,Externo - Zapico Florencia,RRII Padron - Error a ejecutar Padrón mes Febrero 2026,2026-02-24T11:39:31.307000-03:00,2026-02-24T11:50:01.715818-03:00,0.18
+446504-c00andreet,CDS-991,446504,c00andreet,Externo - Andreetti Enzo,[Nucleo] Clasificación - Exceso con producto 71201 - Cesa cálculo de días de atraso,2026-02-24T14:44:50.297000-03:00,2026-02-26T12:34:51.310000-03:00,15.83
+468661-c00gutiefa,CDS-4067,468661,c00gutiefa,Externo - Gutierrez Facundo,Modulo de Seguridad - Informe de PAI,2026-02-24T17:14:37.080000-03:00,,27.76
+490360-c00saucecl,CDS-5954,490360,c00saucecl,Externo - Saucedo Clara,"Autorizacion de ""Continuar"" entre etapas",2026-02-24T17:49:00.433000-03:00,2026-02-25T10:58:15.160000-03:00,2.15
+536709-c00alvarg,CDS-10761,536709,c00alvarg,Externo - Alvarez Gaston,cheque Nº 7835208 CC 153108 suc 30 con ONP,2026-02-25T13:24:46.937000-03:00,2026-02-26T08:45:01.769271-03:00,4.59
+536316-c00alvarg,CDS-10720,536316,c00alvarg,Externo - Alvarez Gaston,OP-3435- Cambio de Producto- Impacto en la VTA_SALDOS,2026-02-26T10:18:10.167000-03:00,2026-02-27T12:05:02.134390-03:00,10.78
+544317-c00alvarg,CDS-11449,544317,c00alvarg,Externo - Alvarez Gaston,Liberación Cliente Web,2026-02-26T15:16:06.687000-03:00,2026-02-26T15:16:09.797000-03:00,0.0
+545820-c00schencl,CDS-11579,545820,c00schencl,Externo - Schenck Lautaro,Sueldos - Servicio de Recibos para TC Adintar,2026-02-27T09:47:24.007000-03:00,2026-02-27T12:15:02.080403-03:00,2.46

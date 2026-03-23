@@ -1,0 +1,512 @@
+{
+  "536410-c00alvarg": {
+    "issue_key": "CDS-10726",
+    "issue_id": "536410",
+    "assignee_id": "c00alvarg",
+    "assignee_name": "Externo - Alvarez Gaston",
+    "summary": "Liberación de Linea Base Diciembre 2025 /Enero 2026",
+    "entries": [
+      {
+        "entered_at": "2026-02-02T09:00:00-03:00",
+        "exited_at": "2026-02-04T13:10:02.529795-03:00",
+        "worked_hours": 22.17
+      }
+    ]
+  },
+  "532033-c00schencl": {
+    "issue_key": "CDS-10339",
+    "issue_id": "532033",
+    "assignee_id": "c00schencl",
+    "assignee_name": "Externo - Schenck Lautaro",
+    "summary": "Envío de archivo Seguro Saldo Deudor para PRESTAMOS - EL SURCO, CÍA 20-",
+    "entries": [
+      {
+        "entered_at": "2026-02-02T09:00:00-03:00",
+        "exited_at": "2026-02-09T11:03:08.333000-03:00",
+        "worked_hours": 47.05
+      },
+      {
+        "entered_at": "2026-02-20T16:00:31.707000-03:00",
+        "exited_at": "2026-02-20T16:01:18.663000-03:00",
+        "worked_hours": 0.01
+      }
+    ]
+  },
+  "528145-c00zapicof": {
+    "issue_key": "CDS-9970",
+    "issue_id": "528145",
+    "assignee_id": "c00zapicof",
+    "assignee_name": "Externo - Zapico Florencia",
+    "summary": "Error Proceso - RPT - RRII SIRCREB",
+    "entries": [
+      {
+        "entered_at": "2026-02-02T09:00:00-03:00",
+        "exited_at": "2026-02-04T08:53:31.880000-03:00",
+        "worked_hours": 18.0
+      },
+      {
+        "entered_at": "2026-02-18T09:56:22.413000-03:00",
+        "exited_at": "2026-02-23T12:40:18.530000-03:00",
+        "worked_hours": 29.73
+      }
+    ]
+  },
+  "498013-c00andreet": {
+    "issue_key": "CDS-6689",
+    "issue_id": "498013",
+    "assignee_id": "c00andreet",
+    "assignee_name": "Externo - Andreetti Enzo",
+    "summary": "[Nucleo] PA Cobro Automático de Comisiones Mantenimiento en cuentas FUCO",
+    "entries": [
+      {
+        "entered_at": "2026-02-02T09:00:00-03:00",
+        "exited_at": null,
+        "worked_hours": 180.0
+      }
+    ]
+  },
+  "496296-c00andreet": {
+    "issue_key": "CDS-6491",
+    "issue_id": "496296",
+    "assignee_id": "c00andreet",
+    "assignee_name": "Externo - Andreetti Enzo",
+    "summary": "[Nucleo] Diferencias en los datos al exportar excel mediante oper 7630",
+    "entries": [
+      {
+        "entered_at": "2026-02-02T09:00:00-03:00",
+        "exited_at": null,
+        "worked_hours": 180.0
+      }
+    ]
+  },
+  "483080-c00gutiefa": {
+    "issue_key": "CDS-5323",
+    "issue_id": "483080",
+    "assignee_id": "c00gutiefa",
+    "assignee_name": "Externo - Gutierrez Facundo",
+    "summary": "DD - ITF 2.8.10 - SNP_ADHESIONES: MARCA DE RECHAZO INCORRECTO. OPERACIONES NO MONETARIAS.",
+    "entries": [
+      {
+        "entered_at": "2026-02-02T09:00:00-03:00",
+        "exited_at": "2026-02-04T15:42:11.767000-03:00",
+        "worked_hours": 24.7
+      }
+    ]
+  },
+  "454925-c00saucecl": {
+    "issue_key": "CDS-2414",
+    "issue_id": "454925",
+    "assignee_id": "c00saucecl",
+    "assignee_name": "Externo - Saucedo Clara",
+    "summary": "OP 02, 07 y 40 no graba la bitácora de impuestos",
+    "entries": [
+      {
+        "entered_at": "2026-02-02T09:00:00-03:00",
+        "exited_at": "2026-02-06T12:06:06.340000-03:00",
+        "worked_hours": 39.1
+      }
+    ]
+  },
+  "446504-c00gentaem": {
+    "issue_key": "CDS-991",
+    "issue_id": "446504",
+    "assignee_id": "c00gentaem",
+    "assignee_name": "Externo - Genta Emiliano",
+    "summary": "[Nucleo] Clasificación - Exceso con producto 71201 - Cesa cálculo de días de atraso",
+    "entries": [
+      {
+        "entered_at": "2026-02-02T09:00:00-03:00",
+        "exited_at": "2026-02-02T09:39:33.263000-03:00",
+        "worked_hours": 0.66
+      }
+    ]
+  },
+  "535394-c00andreet": {
+    "issue_key": "CDS-10641",
+    "issue_id": "535394",
+    "assignee_id": "c00andreet",
+    "assignee_name": "Externo - Andreetti Enzo",
+    "summary": "[Nucleo] Pago parcial con subsidio de Leasing - IVA cobrado incorrecto",
+    "entries": [
+      {
+        "entered_at": "2026-02-02T09:08:54.953000-03:00",
+        "exited_at": null,
+        "worked_hours": 179.85
+      }
+    ]
+  },
+  "481581-c00urruttl": {
+    "issue_key": "CDS-5214",
+    "issue_id": "481581",
+    "assignee_id": "c00urruttl",
+    "assignee_name": "Externo - Urrutty Lucia",
+    "summary": "PA 8606 Y 8607 Incidente Cobro de Impuestos por cheques que dejan las CA con saldo negativo",
+    "entries": [
+      {
+        "entered_at": "2026-02-02T09:08:18.617000-03:00",
+        "exited_at": "2026-02-03T10:07:10.647000-03:00",
+        "worked_hours": 9.98
+      },
+      {
+        "entered_at": "2026-02-20T11:21:44.760000-03:00",
+        "exited_at": null,
+        "worked_hours": 51.64
+      }
+    ]
+  },
+  "534087-c00pererac": {
+    "issue_key": "CDS-10532",
+    "issue_id": "534087",
+    "assignee_id": "c00pererac",
+    "assignee_name": "Externo - Perera Cristhian",
+    "summary": "Devoluciones de SIRCREB - Información de la DDJJ",
+    "entries": [
+      {
+        "entered_at": "2026-02-02T09:21:31.793000-03:00",
+        "exited_at": "2026-02-04T08:40:01.804548-03:00",
+        "worked_hours": 17.64
+      }
+    ]
+  },
+  "520313-c00alvarg": {
+    "issue_key": "CDS-9196",
+    "issue_id": "520313",
+    "assignee_id": "c00alvarg",
+    "assignee_name": "Externo - Alvarez Gaston",
+    "summary": "Impuesto CREDEB sobre débito cobro Tarjeta TUYA",
+    "entries": [
+      {
+        "entered_at": "2026-02-02T09:22:36.487000-03:00",
+        "exited_at": "2026-02-09T17:45:02.472625-03:00",
+        "worked_hours": 53.37
+      }
+    ]
+  },
+  "540297-c00urruttl": {
+    "issue_key": "CDS-11154",
+    "issue_id": "540297",
+    "assignee_id": "c00urruttl",
+    "assignee_name": "Externo - Urrutty Lucia",
+    "summary": "Inconsistencias en los recibos de Sueldos ",
+    "entries": [
+      {
+        "entered_at": "2026-02-03T10:37:51.183000-03:00",
+        "exited_at": "2026-02-04T12:45:03.139920-03:00",
+        "worked_hours": 11.12
+      }
+    ]
+  },
+  "536834-c00zapicof": {
+    "issue_key": "CDS-10776",
+    "issue_id": "536834",
+    "assignee_id": "c00zapicof",
+    "assignee_name": "Externo - Zapico Florencia",
+    "summary": "Procesos de rendición de impuestos: RPT - RRII CREDEB SEMANAL y RPT - RRII CREDEB",
+    "entries": [
+      {
+        "entered_at": "2026-02-04T10:26:40.933000-03:00",
+        "exited_at": "2026-02-06T14:27:42.153000-03:00",
+        "worked_hours": 22.02
+      }
+    ]
+  },
+  "488360-c00urruttl": {
+    "issue_key": "CDS-5762",
+    "issue_id": "488360",
+    "assignee_id": "c00urruttl",
+    "assignee_name": "Externo - Urrutty Lucia",
+    "summary": "Soportes agendados posterior a la fecha",
+    "entries": [
+      {
+        "entered_at": "2026-02-04T12:45:15.707000-03:00",
+        "exited_at": "2026-02-06T11:19:54.250000-03:00",
+        "worked_hours": 16.58
+      }
+    ]
+  },
+  "449367-c00zapicof": {
+    "issue_key": "CDS-1443",
+    "issue_id": "449367",
+    "assignee_id": "c00zapicof",
+    "assignee_name": "Externo - Zapico Florencia",
+    "summary": "RRII-IERIC - ANUAL",
+    "entries": [
+      {
+        "entered_at": "2026-02-06T11:07:35.743000-03:00",
+        "exited_at": "2026-02-12T09:47:32.487000-03:00",
+        "worked_hours": 34.67
+      },
+      {
+        "entered_at": "2026-02-23T16:23:53.653000-03:00",
+        "exited_at": "2026-02-23T16:34:27.837000-03:00",
+        "worked_hours": 0.18
+      }
+    ]
+  },
+  "469744-c00gutiefa": {
+    "issue_key": "CDS-4176",
+    "issue_id": "469744",
+    "assignee_id": "c00gutiefa",
+    "assignee_name": "Externo - Gutierrez Facundo",
+    "summary": "Ajuste - Alta Masiva",
+    "entries": [
+      {
+        "entered_at": "2026-02-06T11:53:02.400000-03:00",
+        "exited_at": "2026-02-09T16:19:30.233000-03:00",
+        "worked_hours": 13.44
+      }
+    ]
+  },
+  "542836-c00gutiefa": {
+    "issue_key": "CDS-11347",
+    "issue_id": "542836",
+    "assignee_id": "c00gutiefa",
+    "assignee_name": "Externo - Gutierrez Facundo",
+    "summary": "OP6630 - Error carga garantia Hipotecaria/Prendaria - Numeradores ",
+    "entries": [
+      {
+        "entered_at": "2026-02-10T12:38:18.860000-03:00",
+        "exited_at": "2026-02-10T17:21:53.380000-03:00",
+        "worked_hours": 4.73
+      }
+    ]
+  },
+  "539419-c00schencl": {
+    "issue_key": "CDS-11058",
+    "issue_id": "539419",
+    "assignee_id": "c00schencl",
+    "assignee_name": "Externo - Schenck Lautaro",
+    "summary": "Reservas - Operación nueva para detallar los préstamos que componen las Reservas PA (Tipo 2) generadas",
+    "entries": [
+      {
+        "entered_at": "2026-02-11T08:26:50.077000-03:00",
+        "exited_at": "2026-02-24T14:39:18.200000-03:00",
+        "worked_hours": 86.66
+      }
+    ]
+  },
+  "511495-c00saucecl": {
+    "issue_key": "CDS-8133",
+    "issue_id": "511495",
+    "assignee_id": "c00saucecl",
+    "assignee_name": "Externo - Saucedo Clara",
+    "summary": "OP7004 - Cronograma Original y Detalle Pagos - Actualización de Tasas de Préstamos",
+    "entries": [
+      {
+        "entered_at": "2026-02-11T08:29:09.307000-03:00",
+        "exited_at": "2026-02-18T12:00:34.067000-03:00",
+        "worked_hours": 48.01
+      }
+    ]
+  },
+  "498605-c00gutiefa": {
+    "issue_key": "CDS-6751",
+    "issue_id": "498605",
+    "assignee_id": "c00gutiefa",
+    "assignee_name": "Externo - Gutierrez Facundo",
+    "summary": "[Nucleo] Operacion 3682 exoneración/pago comisiones pendientes",
+    "entries": [
+      {
+        "entered_at": "2026-02-13T12:03:34.750000-03:00",
+        "exited_at": "2026-02-13T12:03:57.083000-03:00",
+        "worked_hours": 0.01
+      }
+    ]
+  },
+  "530408-c00gutiefa": {
+    "issue_key": "CDS-10195",
+    "issue_id": "530408",
+    "assignee_id": "c00gutiefa",
+    "assignee_name": "Externo - Gutierrez Facundo",
+    "summary": "Vulnerabilidad en el LOG de Sueldos",
+    "entries": [
+      {
+        "entered_at": "2026-02-18T09:37:55.320000-03:00",
+        "exited_at": "2026-02-19T10:48:16.217000-03:00",
+        "worked_hours": 10.17
+      }
+    ]
+  },
+  "471442-c00andreet": {
+    "issue_key": "CDS-4341",
+    "issue_id": "471442",
+    "assignee_id": "c00andreet",
+    "assignee_name": "Externo - Andreetti Enzo",
+    "summary": "[Nucleo] Informacion de Cobranzas de Prestamos - Persistencia de datos",
+    "entries": [
+      {
+        "entered_at": "2026-02-18T09:57:54.777000-03:00",
+        "exited_at": null,
+        "worked_hours": 71.03
+      }
+    ]
+  },
+  "525112-c00gutiefa": {
+    "issue_key": "CDS-9710",
+    "issue_id": "525112",
+    "assignee_id": "c00gutiefa",
+    "assignee_name": "Externo - Gutierrez Facundo",
+    "summary": "OP3408 - Error en Inicio de proceso de inmovilizacion",
+    "entries": [
+      {
+        "entered_at": "2026-02-18T15:57:05.930000-03:00",
+        "exited_at": "2026-02-18T16:15:02.151913-03:00",
+        "worked_hours": 0.3
+      }
+    ]
+  },
+  "545389-c00gentaem": {
+    "issue_key": "CDS-11543",
+    "issue_id": "545389",
+    "assignee_id": "c00gentaem",
+    "assignee_name": "Externo - Genta Emiliano",
+    "summary": "Memos - Prestamos - Intereses Negativos",
+    "entries": [
+      {
+        "entered_at": "2026-02-20T15:24:35.647000-03:00",
+        "exited_at": "2026-03-12T12:55:02.076050-03:00",
+        "worked_hours": 123.51
+      }
+    ]
+  },
+  "454925-c00pererac": {
+    "issue_key": "CDS-2414",
+    "issue_id": "454925",
+    "assignee_id": "c00pererac",
+    "assignee_name": "Externo - Perera Cristhian",
+    "summary": "OP 02, 07 y 40 no graba la bitácora de impuestos",
+    "entries": [
+      {
+        "entered_at": "2026-02-23T09:51:38.933000-03:00",
+        "exited_at": "2026-03-03T13:00:02.297826-03:00",
+        "worked_hours": 57.14
+      }
+    ]
+  },
+  "535821-c00andreet": {
+    "issue_key": "CDS-10680",
+    "issue_id": "535821",
+    "assignee_id": "c00andreet",
+    "assignee_name": "Externo - Andreetti Enzo",
+    "summary": "[Núcleo] Caja Forense - PA - Descripción del concepto ",
+    "entries": [
+      {
+        "entered_at": "2026-02-24T10:06:12.047000-03:00",
+        "exited_at": null,
+        "worked_hours": 34.9
+      }
+    ]
+  },
+  "545926-c00zapicof": {
+    "issue_key": "CDS-11588",
+    "issue_id": "545926",
+    "assignee_id": "c00zapicof",
+    "assignee_name": "Externo - Zapico Florencia",
+    "summary": "RRII Padron - Error a ejecutar Padrón mes Febrero 2026",
+    "entries": [
+      {
+        "entered_at": "2026-02-24T11:39:31.307000-03:00",
+        "exited_at": "2026-02-24T11:50:01.715818-03:00",
+        "worked_hours": 0.18
+      }
+    ]
+  },
+  "446504-c00andreet": {
+    "issue_key": "CDS-991",
+    "issue_id": "446504",
+    "assignee_id": "c00andreet",
+    "assignee_name": "Externo - Andreetti Enzo",
+    "summary": "[Nucleo] Clasificación - Exceso con producto 71201 - Cesa cálculo de días de atraso",
+    "entries": [
+      {
+        "entered_at": "2026-02-24T14:44:50.297000-03:00",
+        "exited_at": "2026-02-26T12:34:51.310000-03:00",
+        "worked_hours": 15.83
+      }
+    ]
+  },
+  "468661-c00gutiefa": {
+    "issue_key": "CDS-4067",
+    "issue_id": "468661",
+    "assignee_id": "c00gutiefa",
+    "assignee_name": "Externo - Gutierrez Facundo",
+    "summary": "Modulo de Seguridad - Informe de PAI",
+    "entries": [
+      {
+        "entered_at": "2026-02-24T17:14:37.080000-03:00",
+        "exited_at": "2026-03-04T14:55:02.585858-03:00",
+        "worked_hours": 51.67
+      }
+    ]
+  },
+  "490360-c00saucecl": {
+    "issue_key": "CDS-5954",
+    "issue_id": "490360",
+    "assignee_id": "c00saucecl",
+    "assignee_name": "Externo - Saucedo Clara",
+    "summary": "Autorizacion de \"Continuar\" entre etapas",
+    "entries": [
+      {
+        "entered_at": "2026-02-24T17:49:00.433000-03:00",
+        "exited_at": "2026-02-25T10:58:15.160000-03:00",
+        "worked_hours": 2.15
+      }
+    ]
+  },
+  "536709-c00alvarg": {
+    "issue_key": "CDS-10761",
+    "issue_id": "536709",
+    "assignee_id": "c00alvarg",
+    "assignee_name": "Externo - Alvarez Gaston",
+    "summary": "cheque Nº 7835208 CC 153108 suc 30 con ONP",
+    "entries": [
+      {
+        "entered_at": "2026-02-25T13:24:46.937000-03:00",
+        "exited_at": "2026-02-26T08:45:01.769271-03:00",
+        "worked_hours": 4.59
+      }
+    ]
+  },
+  "536316-c00alvarg": {
+    "issue_key": "CDS-10720",
+    "issue_id": "536316",
+    "assignee_id": "c00alvarg",
+    "assignee_name": "Externo - Alvarez Gaston",
+    "summary": "OP-3435- Cambio de Producto- Impacto en la VTA_SALDOS",
+    "entries": [
+      {
+        "entered_at": "2026-02-26T10:18:10.167000-03:00",
+        "exited_at": "2026-02-27T12:05:02.134390-03:00",
+        "worked_hours": 10.78
+      }
+    ]
+  },
+  "544317-c00alvarg": {
+    "issue_key": "CDS-11449",
+    "issue_id": "544317",
+    "assignee_id": "c00alvarg",
+    "assignee_name": "Externo - Alvarez Gaston",
+    "summary": "Liberación Cliente Web",
+    "entries": [
+      {
+        "entered_at": "2026-02-26T15:16:06.687000-03:00",
+        "exited_at": "2026-02-26T15:16:09.797000-03:00",
+        "worked_hours": 0.0
+      }
+    ]
+  },
+  "545820-c00schencl": {
+    "issue_key": "CDS-11579",
+    "issue_id": "545820",
+    "assignee_id": "c00schencl",
+    "assignee_name": "Externo - Schenck Lautaro",
+    "summary": "Sueldos - Servicio de Recibos para TC Adintar",
+    "entries": [
+      {
+        "entered_at": "2026-02-27T09:47:24.007000-03:00",
+        "exited_at": "2026-02-27T12:15:02.080403-03:00",
+        "worked_hours": 2.46
+      }
+    ]
+  }
+}

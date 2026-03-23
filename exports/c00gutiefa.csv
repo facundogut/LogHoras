@@ -1,0 +1,9 @@
+_id,issue_key,issue_id,assignee_id,assignee_name,summary,entered_at,exited_at,worked_hours
+468661-c00gutiefa,CDS-4067,468661,c00gutiefa,Externo - Gutierrez Facundo,Modulo de Seguridad - Informe de PAI,2026-03-02T09:00:00-03:00,2026-03-04T14:55:02.585858-03:00,23.92
+542652-c00gutiefa,CDS-11335,542652,c00gutiefa,Externo - Gutierrez Facundo,RPT - RRII Operaciones Pasivas,2026-03-06T15:45:13.507000-03:00,2026-03-09T12:50:02.382085-03:00,6.08
+550554-c00gutiefa,CDS-11939,550554,c00gutiefa,Externo - Gutierrez Facundo,Modificación archivo RRII_Capitales_Minimos_Detalle,2026-03-10T14:15:22.303000-03:00,2026-03-10T14:49:31.797000-03:00,0.57
+550509-c00gutiefa,CDS-11934,550509,c00gutiefa,Externo - Gutierrez Facundo,"Redefinición del criterio de asignación de exposiciones en Riesgo de Crédito - Capitales Mínimos para clientes clasificados como MiPyME que poseen código de descuento, a efectos de su correcta segmentación entre cartera Empresas y Minoristas.",2026-03-17T11:19:32.297000-03:00,2026-03-17T15:55:02.360453-03:00,4.59
+550129-c00gutiefa,CDS-11907,550129,c00gutiefa,Externo - Gutierrez Facundo,Modificación en calculo de scoring AH - Orden Evaluacion de deudas PP,2026-03-18T14:45:04.640000-03:00,2026-03-18T17:15:02.533352-03:00,2.5
+551176-c00gutiefa,CDS-11982,551176,c00gutiefa,Externo - Gutierrez Facundo,ANSES - Campo Tipo de Liquidación,2026-03-19T10:03:18.537000-03:00,2026-03-19T16:45:02.092274-03:00,6.7
+551176-c00gutiefa,CDS-11982,551176,c00gutiefa,Externo - Gutierrez Facundo,ANSES - Campo Tipo de Liquidación,2026-03-20T12:35:49.917000-03:00,2026-03-20T14:30:02.912963-03:00,1.9
+551558-c00gutiefa,CDS-12016,551558,c00gutiefa,Externo - Gutierrez Facundo,DPF Presentados Terceros,2026-03-19T10:06:07.583000-03:00,,15.32

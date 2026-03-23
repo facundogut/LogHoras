@@ -1,0 +1,42 @@
+﻿_id,issue_key,issue_id,assignee_id,assignee_name,summary,entered_at,exited_at,worked_hours
+545389-c00gentaem,CDS-11543,545389,c00gentaem,Externo - Genta Emiliano,[Nucleo] Memos - Prestamos - Intereses Negativos,2026-03-02T09:00:00-03:00,2026-03-12T12:53:00.830000-03:00,75.88
+535821-c00andreet,CDS-10680,535821,c00andreet,Externo - Andreetti Enzo,[Núcleo] Caja Forense - PA - Descripción del concepto ,2026-03-02T09:00:00-03:00,,136.0
+535394-c00andreet,CDS-10641,535394,c00andreet,Externo - Andreetti Enzo,[Nucleo] Pago parcial con subsidio de Leasing - IVA cobrado incorrecto,2026-03-02T09:00:00-03:00,,136.0
+498013-c00andreet,CDS-6689,498013,c00andreet,Externo - Andreetti Enzo,[Nucleo] PA Cobro Automático de Comisiones Mantenimiento en cuentas FUCO,2026-03-02T09:00:00-03:00,,136.0
+496296-c00andreet,CDS-6491,496296,c00andreet,Externo - Andreetti Enzo,[Nucleo] Diferencias en los datos al exportar excel mediante oper 7630,2026-03-02T09:00:00-03:00,,136.0
+481581-c00schencl,CDS-5214,481581,c00schencl,Externo - Schenck Lautaro,PA 8606 Y 8607 Incidente Cobro de Impuestos por cheques que dejan las CA con saldo negativo,2026-03-02T09:00:00-03:00,,136.0
+471442-c00andreet,CDS-4341,471442,c00andreet,Externo - Andreetti Enzo,[Nucleo] Informacion de Cobranzas de Prestamos - Persistencia de datos,2026-03-02T09:00:00-03:00,,136.0
+468661-c00gutiefa,CDS-4067,468661,c00gutiefa,Externo - Gutierrez Facundo,Modulo de Seguridad - Informe de PAI,2026-03-02T09:00:00-03:00,2026-03-04T14:55:02.585858-03:00,23.92
+454925-c00saucecl,CDS-2414,454925,c00saucecl,Externo - Saucedo Clara,"OP 02, 07 y 40 no graba la bitácora de impuestos",2026-03-02T09:00:00-03:00,2026-03-03T13:00:02.297826-03:00,13.0
+454925-c00saucecl,CDS-2414,454925,c00saucecl,Externo - Saucedo Clara,"OP 02, 07 y 40 no graba la bitácora de impuestos",2026-03-03T13:27:17.390000-03:00,2026-03-13T09:35:02.807000-03:00,68.13
+480922-c00alvarg,CDS-5170,480922,c00alvarg,Externo - Alvarez Gaston,"CIERRE DE C/C CON SD, Esquemas contable producto 22200",2026-03-02T10:09:46.213000-03:00,2026-03-02T10:09:55.117000-03:00,0.0
+536709-c00alvarg,CDS-10761,536709,c00alvarg,Externo - Alvarez Gaston,cheque Nº 7835208 CC 153108 suc 30 con ONP,2026-03-03T15:35:22.203000-03:00,2026-03-03T16:35:02.825088-03:00,0.99
+528145-c00zapicof,CDS-9970,528145,c00zapicof,Externo - Zapico Florencia,Error Proceso - RPT - RRII SIRCREB,2026-03-04T15:37:10.937000-03:00,2026-03-04T17:48:21.257000-03:00,2.19
+528145-c00zapicof,CDS-9970,528145,c00zapicof,Externo - Zapico Florencia,Error Proceso - RPT - RRII SIRCREB,2026-03-17T09:33:04.507000-03:00,2026-03-17T10:20:01.995012-03:00,0.78
+528145-c00zapicof,CDS-9970,528145,c00zapicof,Externo - Zapico Florencia,Error Proceso - RPT - RRII SIRCREB,2026-03-17T09:33:04.507000-03:00,2026-03-17T10:19:08.837000-03:00,0.77
+536834-c00alvarg,CDS-10776,536834,c00alvarg,Externo - Alvarez Gaston,Procesos de rendición de impuestos: RPT - RRII CREDEB SEMANAL y RPT - RRII CREDEB,2026-03-05T14:15:33.600000-03:00,2026-03-05T14:25:02.745904-03:00,0.16
+548860-c00gentaem,CDS-11818,548860,c00gentaem,Externo - Genta Emiliano,Error en Apertura Topaz,2026-03-05T14:42:19.877000-03:00,2026-03-05T14:46:20.253000-03:00,0.07
+540596-c00schencl,CDS-11181,540596,c00schencl,Externo - Schenck Lautaro,"ECHEQ - Negociación impactada en Topaz, pero no en COELSA - Cliente dispone de fondos y de cheque para negociar",2026-03-04T10:20:49.683000-03:00,2026-03-05T16:45:37.780000-03:00,15.41
+511495-c00saucecl,CDS-8133,511495,c00saucecl,Externo - Saucedo Clara,OP7004 - Cronograma Original y Detalle Pagos - Actualización de Tasas de Préstamos,2026-03-05T16:16:13.207000-03:00,2026-03-06T17:15:01.882419-03:00,9.98
+547164-c00alvarg,CDS-11676,547164,c00alvarg,Externo - Alvarez Gaston,Errores en recpeción y procesamiento de DPF compensable propio,2026-03-06T10:07:00.537000-03:00,2026-03-12T17:10:02.527216-03:00,43.05
+453610-c00schencl,CDS-2166,453610,c00schencl,Externo - Schenck Lautaro,"TPZ: DEDUCCIONES AUTORIZADAS TPZ CALCULO COMISIONES, RETENCIONES",2026-03-06T10:06:38.507000-03:00,,98.89
+521106-c00zapicof,CDS-9284,521106,c00zapicof,Externo - Zapico Florencia,Maxima Afectacion de cuota disponible en prestamos personales,2026-03-06T10:10:55.677000-03:00,2026-03-10T11:25:02.980751-03:00,19.24
+521106-c00zapicof,CDS-9284,521106,c00zapicof,Externo - Zapico Florencia,Maxima Afectacion de cuota disponible en prestamos personales,2026-03-06T10:10:55.677000-03:00,2026-03-10T10:48:31.810000-03:00,18.63
+542652-c00gutiefa,CDS-11335,542652,c00gutiefa,Externo - Gutierrez Facundo,RPT - RRII Operaciones Pasivas,2026-03-06T15:45:13.507000-03:00,2026-03-09T12:50:02.382085-03:00,6.08
+452878-c00saucecl,CDS-2044,452878,c00saucecl,Externo - Saucedo Clara,Formularios Solicitud de Refinanciacion/reprogramacion deuda ,2026-03-10T09:42:37.363000-03:00,,81.29
+550554-c00gutiefa,CDS-11939,550554,c00gutiefa,Externo - Gutierrez Facundo,Modificación archivo RRII_Capitales_Minimos_Detalle,2026-03-10T14:15:22.303000-03:00,2026-03-10T14:49:31.797000-03:00,0.57
+550543-c00andreet,CDS-11938,550543,c00andreet,Externo - Andreetti Enzo,TOPAZ PROBLEMA DE CARGA - Error al evaluar fórmula ,2026-03-10T14:56:12.053000-03:00,2026-03-10T14:56:14.303000-03:00,0.0
+453932-c00urruttl,CDS-2220,453932,c00urruttl,Externo - Urrutty Lucia,Activación cuotas de prestamo en Acreditacion de Sueldos,2026-03-12T11:50:46.273000-03:00,,61.15
+469744-c00alvarg,CDS-4176,469744,c00alvarg,Externo - Alvarez Gaston,Ajuste - Alta Masiva,2026-03-13T08:57:51.023000-03:00,,55.0
+539234-c00zapicof,CDS-11033,539234,c00zapicof,Externo - Zapico Florencia,Cobro alquiler de caja de seguridad mas de 4 veces en el año,2026-03-13T09:18:47.650000-03:00,2026-03-13T16:27:25.257000-03:00,7.14
+539234-c00zapicof,CDS-11033,539234,c00zapicof,Externo - Zapico Florencia,Cobro alquiler de caja de seguridad mas de 4 veces en el año,2026-03-16T12:20:38.427000-03:00,2026-03-20T08:10:02.167987-03:00,32.66
+530062-c00alvarg,CDS-10163,530062,c00alvarg,Externo - Alvarez Gaston,RRII Padron - Novedades de clientes - PEP - Verificacion,2026-03-17T10:31:02.973000-03:00,2026-03-20T14:54:57.010000-03:00,31.4
+545975-c00gentaem,CDS-11593,545975,c00gentaem,Externo - Genta Emiliano,[Nucleo] Clasificación - Memos – Fin de mes no hábil,2026-03-17T10:57:46.907000-03:00,,35.04
+550509-c00gutiefa,CDS-11934,550509,c00gutiefa,Externo - Gutierrez Facundo,"Redefinición del criterio de asignación de exposiciones en Riesgo de Crédito - Capitales Mínimos para clientes clasificados como MiPyME que poseen código de descuento, a efectos de su correcta segmentación entre cartera Empresas y Minoristas.",2026-03-17T11:19:32.297000-03:00,2026-03-17T15:55:02.360453-03:00,4.59
+550129-c00gutiefa,CDS-11907,550129,c00gutiefa,Externo - Gutierrez Facundo,Modificación en calculo de scoring AH - Orden Evaluacion de deudas PP,2026-03-18T14:45:04.640000-03:00,2026-03-18T17:15:02.533352-03:00,2.5
+539419-c00schencl,CDS-11058,539419,c00schencl,Externo - Schenck Lautaro,Reservas - Operación nueva para detallar los préstamos que componen las Reservas PA (Tipo 2) generadas,2026-03-19T09:44:52.083000-03:00,2026-03-19T14:08:14.707000-03:00,4.39
+551176-c00gutiefa,CDS-11982,551176,c00gutiefa,Externo - Gutierrez Facundo,ANSES - Campo Tipo de Liquidación,2026-03-19T10:03:18.537000-03:00,2026-03-19T16:45:02.092274-03:00,6.7
+551176-c00gutiefa,CDS-11982,551176,c00gutiefa,Externo - Gutierrez Facundo,ANSES - Campo Tipo de Liquidación,2026-03-20T12:35:49.917000-03:00,2026-03-20T14:30:02.912963-03:00,1.9
+551558-c00gutiefa,CDS-12016,551558,c00gutiefa,Externo - Gutierrez Facundo,DPF Presentados Terceros,2026-03-19T10:06:07.583000-03:00,,17.9
+541431-c00zapicof,CDS-11239,541431,c00zapicof,Externo - Zapico Florencia,Depósito a plazo fijo de títulos valores públicos nacionales,2026-03-20T08:06:55.613000-03:00,,10.0
+513833-c00urruttl,CDS-8418,513833,c00urruttl,Externo - Urrutty Lucia, Reservas - OP7002 - Liberacion de Reservas tipo 2 En cobro de Cuotas,2026-03-20T11:29:01.533000-03:00,,7.52

@@ -1,0 +1,4 @@
+﻿_id,issue_key,issue_id,assignee_id,assignee_name,summary,entered_at,exited_at,worked_hours
+495120-c00schencl,CDS-6382,495120,c00schencl,Externo - Schenck Lautaro,Error en RRII-EFECTIVO MINIMO y APLICACION DE RECURSOS - Ahora 12,2025-09-09T10:15:13.357000-03:00,2025-09-22T10:43:02.180000-03:00,81.46
+495120-c00schencl,CDS-6382,495120,c00schencl,Externo - Schenck Lautaro,Error en RRII-EFECTIVO MINIMO y APLICACION DE RECURSOS - Ahora 12,2025-09-09T10:15:13.357000-03:00,2025-09-22T10:43:02.180000-03:00,81.46
+451196-c00gentaem,CDS-1771,451196,c00gentaem,Externo - Genta Emiliano,ERROR - CBL - Procesar Bandeja Contable mensaje de finalización,2025-09-01T09:00:00-03:00,2025-09-22T09:28:54.693000-03:00,135.48

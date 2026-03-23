@@ -1,0 +1,44 @@
+[
+  {
+    "issue_key": "CDS-6849",
+    "assignee_id": "c00schencl",
+    "summary": "Online Banking - Incidente - No permite avanzar en el flujo luego de la Simulación de Prestamos.",
+    "link": "https://jira.nbch.com.ar/browse/CDS-6849"
+  },
+  {
+    "issue_key": "CDS-5773",
+    "assignee_id": "c00saucecl",
+    "summary": "ERROR EN FOMULARIO AUTORIZACIÓN EN OPERACIONES 3655 Y 2070",
+    "link": "https://jira.nbch.com.ar/browse/CDS-5773"
+  },
+  {
+    "issue_key": "CDS-5088",
+    "assignee_id": "c00gentaem",
+    "summary": "SEGURO SD, ARCHIVO DE ENVIO A LAS COMPAÑIAS DE SEGURO",
+    "link": "https://jira.nbch.com.ar/browse/CDS-5088"
+  },
+  {
+    "issue_key": "CDS-4804",
+    "assignee_id": "c00andreet",
+    "summary": "CAMARA ENVIADA - INCONVENIENTES EN DIGITALIZACION DE VALORES",
+    "link": "https://jira.nbch.com.ar/browse/CDS-4804"
+  },
+  {
+    "issue_key": "CDS-3629",
+    "assignee_id": "c00urruttl",
+    "summary": "Persistencia de datos en Cobranza tabla CRE_COBRANZAS_ACREDITADOR  PR-TC",
+    "link": "https://jira.nbch.com.ar/browse/CDS-3629"
+  },
+  {
+    "issue_key": "CDS-3180",
+    "assignee_id": "c00alvarg",
+    "summary": "Solicitud: Verificar errores en archivo Padrón (RRII Padrón)",
+    "link": "https://jira.nbch.com.ar/browse/CDS-3180"
+  },
+  {
+    "issue_key": "CDS-1469",
+    "assignee_id": "c00zapicof",
+    "summary": "RRII-OPERACIONES ACTIVAS",
+    "link": "https://jira.nbch.com.ar/browse/CDS-1469"
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "495120-c00schencl": {
+    "issue_key": "CDS-6382",
+    "issue_id": "495120",
+    "assignee_id": "c00schencl",
+    "assignee_name": "Externo - Schenck Lautaro",
+    "summary": "Error en RRII-EFECTIVO MINIMO y APLICACION DE RECURSOS - Ahora 12",
+    "entries": [
+      {
+        "entered_at": "2025-09-09T10:15:13.357000-03:00",
+        "exited_at": "2025-09-22T10:43:02.180000-03:00",
+        "worked_hours": 81.46
+      },
+      {
+        "entered_at": "2025-09-09T10:15:13.357000-03:00",
+        "exited_at": "2025-10-03T12:35:02.969143-03:00",
+        "worked_hours": 164.33
+      }
+    ]
+  },
+  "451196-c00gentaem": {
+    "issue_key": "CDS-1771",
+    "issue_id": "451196",
+    "assignee_id": "c00gentaem",
+    "assignee_name": "Externo - Genta Emiliano",
+    "summary": "ERROR - CBL - Procesar Bandeja Contable mensaje de finalización",
+    "entries": [
+      {
+        "entered_at": "2025-09-01T09:00:00-03:00",
+        "exited_at": "2025-09-22T09:28:54.693000-03:00",
+        "worked_hours": 135.48
+      }
+    ]
+  }
+}
