@@ -14,7 +14,8 @@ def _load_env() -> None:
 
 
 @dataclass(frozen=True)
-class NbchSyncConfig:
+class TopazSyncConfig:
+    # Jira TOPAZ corre sobre el tenant de Topsystems y usa por defecto el proyecto NBCH.
     jira_url: str = 'https://topsystems.atlassian.net'
     jira_email: str | None = None
     jira_api_token: str | None = None
@@ -78,10 +79,10 @@ class NbchSyncConfig:
         return self.base_dir / self.default_output
 
 
-def load_nbch_config() -> NbchSyncConfig:
+def load_topaz_config() -> TopazSyncConfig:
     _load_env()
     warnings.simplefilter('ignore', InsecureRequestWarning)
-    return NbchSyncConfig(
+    return TopazSyncConfig(
         jira_email=os.getenv('USUARIO_JIRA_NBCH'),
         jira_api_token=os.getenv('TOKEN_JIRA_NBCH'),
         jira_project=os.getenv('JIRA_PROJECT', 'NBCH'),

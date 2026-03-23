@@ -12,13 +12,13 @@ from loghoras.domain.time_tracking import (
     parse_jira_datetime,
     last_business_moment_of_year_month,
 )
-from loghoras.infrastructure.jira_client import JiraClient
+from loghoras.infrastructure.nbch_jira_client import NbchJiraClient
 from loghoras.infrastructure.log_repository import MonthlyLogRepository
 from loghoras.shared.config import TrackerConfig
 
 
 class JiraTrackerService:
-    def __init__(self, config: TrackerConfig, jira_client: JiraClient, repository: MonthlyLogRepository):
+    def __init__(self, config: TrackerConfig, jira_client: NbchJiraClient, repository: MonthlyLogRepository):
         self.config = config
         self.jira_client = jira_client
         self.repository = repository

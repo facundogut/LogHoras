@@ -2,11 +2,11 @@ from __future__ import annotations
 
 import requests
 
-from loghoras.shared.nbch_config import NbchSyncConfig
+from loghoras.shared.topaz_config import TopazSyncConfig
 
 
 class IssueTypeClient:
-    def __init__(self, config: NbchSyncConfig):
+    def __init__(self, config: TopazSyncConfig):
         self.config = config
         self.url = 'https://sai-library.saiapplications.com/api/templates/68dd7d6c8149437f967307a0/execute'
 
