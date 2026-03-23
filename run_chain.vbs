@@ -4,7 +4,7 @@ Dim workDir, logDir, exportDir, logFile, pythonw
 workDir   = "C:\Users\fgperez\OneDrive - Topaz Evolution\Documentos\Automa\LogHoras"
 logDir    = workDir & "\logs"
 exportDir = workDir & "\exports"
-pythonw   = "C:\Users\fgperez\AppData\Local\Programs\Python313\pythonw.exe"
+pythonw   = "C:\Users\fgperez\AppData\Local\Programs\Python313\python.exe"
 
 Dim fso: Set fso = CreateObject("Scripting.FileSystemObject")
 If Not fso.FolderExists(workDir)   Then fso.CreateFolder workDir

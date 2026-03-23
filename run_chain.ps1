@@ -20,7 +20,7 @@ $ErrorActionPreference = 'Stop'
 # ======= CONFIG ========
 # =======================
 $WorkDir = "C:\Users\fgperez\Documents\Automa\LogHoras"
-$PyVenv  = "C:\Users\fgperez\AppData\Local\Programs\Python313\pythonw.exe"
+$PyVenv  = "C:\Users\fgperez\AppData\Local\Programs\Python313\python.exe"
 $Step1   = "`"$PyVenv`" jira_tracker_JSON.py"
 $Step2   = "`"$PyVenv`" enviar_novedades.py"
 $LogDir  = Join-Path $WorkDir "logs"

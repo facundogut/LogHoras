@@ -1,4 +1,6 @@
 from datetime import datetime
+import sys
+import traceback
 
 import requests
 
@@ -8,7 +10,12 @@ from loghoras.infrastructure.log_repository import MonthlyLogRepository
 from loghoras.shared.config import load_tracker_config
 
 
-def main() -> None:
+def _print_exception_details(context: str, error: Exception) -> None:
+    print(f'{context}: {error}', file=sys.stderr)
+    traceback.print_exc()
+
+
+def main() -> int:
     config = load_tracker_config()
     service = JiraTrackerService(config, JiraClient(config), MonthlyLogRepository(config))
     now = datetime.now().astimezone()
@@ -18,13 +25,17 @@ def main() -> None:
         novedades_path = service.repository.save_novedades(novedades)
         print(f'OK - Logs actualizados en {config.output_dir} (mes actual y/o meses previos si hubo rollover).')
         print(f'OK - Novedades de esta corrida en:\n  {novedades_path}')
-    except requests.exceptions.Timeout:
-        print('ERROR: Timeout al consultar JIRA (aumentá REQUEST_TIMEOUT si es recurrente).')
+        return 0
+    except requests.exceptions.Timeout as error:
+        _print_exception_details('ERROR: Timeout al consultar JIRA (aumentá REQUEST_TIMEOUT si es recurrente)', error)
+        return 1
     except requests.exceptions.SSLError as error:
-        print(f'ERROR SSL: {error} (usá VERIFY_SSL=True con certificados válidos).')
+        _print_exception_details('ERROR SSL (usá VERIFY_SSL=True con certificados válidos)', error)
+        return 1
     except Exception as error:
-        print(f'ERROR inesperado: {error}')
+        _print_exception_details('ERROR inesperado', error)
+        return 1
 
 
 if __name__ == '__main__':
-    main()
+    raise SystemExit(main())
