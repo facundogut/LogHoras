@@ -15,7 +15,7 @@ def _load_env() -> None:
 
 @dataclass(frozen=True)
 class NbchSyncConfig:
-    jira_url: str = 'https://nbch.atlassian.net'
+    jira_url: str = 'https://topsystems.atlassian.net'
     jira_email: str | None = None
     jira_api_token: str | None = None
     jira_project: str = 'NBCH'
@@ -43,6 +43,8 @@ class NbchSyncConfig:
         'c00alvarg': '627ea6e266eb5800698101fa',
         'c00zapicof': '627ea6e266eb5800698101fa',
         'c00pererac': '712020:61d354a8-440c-4860-8bfe-92e0d102d5f7',
+        'c00aloyfed': '712020:bd8654a7-f45e-4aa3-9359-48ad1366f81e',
+        'c00britomj': '712020:d860a360-e1cf-4b6e-acf0-1fb0d1f87ec6',
     })
     cds_user_to_name: dict[str, str] = field(default_factory=lambda: {
         'c00andreet': 'Enzo Andreetti',
@@ -55,6 +57,8 @@ class NbchSyncConfig:
         'c00alvarg': 'Gastón Álvarez',
         'c00zapicof': 'Florencia Zapico',
         'c00pererac': 'Cristhian Perera',
+        'c00aloyfed': 'Federico Aloy',
+        'c00britomj': 'Maria José Britos',
     })
 
     @property
