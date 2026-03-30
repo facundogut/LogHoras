@@ -22,7 +22,6 @@ $ErrorActionPreference = 'Stop'
 $WorkDir = "C:\Users\fgperez\Documents\Automa\LogHoras"
 $PyVenv  = "C:\Users\fgperez\AppData\Local\Programs\Python313\python.exe"
 $Step1   = "`"$PyVenv`" jira_tracker_JSON.py"
-$Step2   = "`"$PyVenv`" enviar_novedades.py"
 $LogDir  = Join-Path $WorkDir "logs"
 $Log     = Join-Path $LogDir ("chain_{0}.log" -f (Get-Date -Format "yyyyMMdd"))
 
@@ -70,7 +69,6 @@ Set-Location $WorkDir
 Write-Log "=== CHAIN START ==="
 
 Run-Step "jira_tracker_JSON.py" $Step1
-Run-Step "enviar_novedades.py" $Step2
 
 Write-Log "=== CHAIN OK ==="
 exit 0

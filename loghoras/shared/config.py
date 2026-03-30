@@ -20,7 +20,6 @@ class TrackerConfig:
     jira_email: str | None = None
     jira_token: str | None = None
     output_dir: Path = field(default_factory=lambda: Path.cwd() / 'resultado')
-    novedades_filename: str = 'novedades.json'
     work_start: time = time(9, 0, 0)
     work_end: time = time(18, 0, 0)
     business_days: set[int] = field(default_factory=lambda: {0, 1, 2, 3, 4})
@@ -49,10 +48,6 @@ class TrackerConfig:
         if self.jira_email and self.jira_token:
             return self.jira_email, self.jira_token
         return None
-
-    @property
-    def novedades_path(self) -> Path:
-        return self.output_dir / self.novedades_filename
 
 
 def load_tracker_config() -> TrackerConfig:

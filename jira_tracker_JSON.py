@@ -21,10 +21,8 @@ def main() -> int:
     now = datetime.now().astimezone()
     config.output_dir.mkdir(parents=True, exist_ok=True)
     try:
-        novedades = service.update_log_entries(now)
-        novedades_path = service.repository.save_novedades(novedades)
-        print(f'OK - Logs actualizados en {config.output_dir} (mes actual y/o meses previos si hubo rollover).')
-        print(f'OK - Novedades de esta corrida en:\n  {novedades_path}')
+        log_path = service.update_log_entries(now)
+        print(f'OK - Registro de issues activas actualizado en: {log_path}')
         return 0
     except requests.exceptions.Timeout as error:
         _print_exception_details('ERROR: Timeout al consultar JIRA (aumentá REQUEST_TIMEOUT si es recurrente)', error)
