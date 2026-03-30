@@ -17,7 +17,6 @@ Este repositorio reúne scripts de soporte para tres flujos principales:
 - `jira_tracker_JSON.py`: entrypoint del tracker de horas. Construye dependencias y ejecuta el caso de uso principal.
 - `enviar_novedades.py`: entrypoint de sincronización de novedades hacia Jira TOPAZ.
 - `json_to_csv.py`: utilidad puntual para convertir logs JSON a CSV.
-- `jira_tracker_JSON_antiguo.py`: versión histórica previa del tracker.
 - `run_chain.ps1` / `run_chain.vbs`: scripts de orquestación para ejecutar la cadena completa.
 - Ambos scripts escriben en `logs/chain_YYYYMMDD.log` y ahora capturan también la salida estándar y de error de cada paso para facilitar el diagnóstico.
 
