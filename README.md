@@ -1,112 +1,80 @@
-# LogHoras
+# LogHoras (rama BISA)
 
-Automatizaciones para seguir horas de trabajo en Jira NBCH, exportarlas y generar novedades/tareas espejo en Jira TOPAZ (proyecto `NBCH` en Topsystems).
+Versión simplificada para traspaso operativo: **solo registra issues activas** desde Jira NBCH en un log mensual JSON.
 
-## Objetivo del repo
+## Qué incluye esta variante
 
-Este repositorio reúne scripts de soporte para tres flujos principales:
+- Tracker de issues en estado `DOING` (`DES - DOING`, `DISEÑO - DOING`).
+- Cálculo de horas hábiles transcurridas para cada issue activa.
+- Persistencia mensual en `resultado/jira_log_YYYY-MM.json`.
+- Script de cadena (`run_chain.ps1` / `run_chain.vbs`) con un único paso.
 
-1. **Tracking de horas desde Jira NBCH**: detecta entradas y salidas de estados `DOING`, calcula horas hábiles y persiste logs mensuales en JSON.
-2. **Sincronización de novedades hacia Jira TOPAZ**: toma `resultado/novedades.json`, evita duplicados por clave CDS y crea issues espejo en el proyecto `NBCH` de TOPAZ/Topsystems.
-3. **Exportación y salidas auxiliares**: convierte logs a CSV y guarda resultados listos para consumo manual o por otros procesos.
+## Módulos/servicios indispensables
 
-## Estructura actual
+- `jira_tracker_JSON.py`: entrypoint único a ejecutar por la otra área.
+- `loghoras/application/tracker_service.py`: orquesta lectura de activas y armado del log.
+- `loghoras/infrastructure/nbch_jira_client.py`: consulta Jira NBCH (search/changelog).
+- `loghoras/infrastructure/log_repository.py`: guarda el JSON mensual.
+- `loghoras/domain/time_tracking.py`: parseo de fechas y cálculo de horas hábiles.
+- `loghoras/shared/config.py`: configuración por variables de entorno.
 
-### Entry points
+> Los módulos de espejo/sincronización hacia otro Jira (TOPAZ/NBCH destino) quedan fuera del flujo requerido.
 
-- `jira_tracker_JSON.py`: entrypoint del tracker de horas. Construye dependencias y ejecuta el caso de uso principal.
-- `enviar_novedades.py`: entrypoint de sincronización de novedades hacia Jira TOPAZ.
-- `json_to_csv.py`: utilidad puntual para convertir logs JSON a CSV.
-- `run_chain.ps1` / `run_chain.vbs`: scripts de orquestación para ejecutar la cadena completa.
-- Ambos scripts escriben en `logs/chain_YYYYMMDD.log` y ahora capturan también la salida estándar y de error de cada paso para facilitar el diagnóstico.
+## Configuración para la otra área
 
-### Paquete `loghoras/`
+### 1) Requisitos
 
-La lógica nueva quedó separada en capas para que el mantenimiento sea más simple.
+- Python 3.11+
+- Acceso de red a `https://nbch.atlassian.net`
+- Token de Jira con permisos de lectura de issues y changelog
 
-#### `loghoras/shared/`
-Configuración y acceso a variables de entorno.
+Instalación:
 
-- `config.py`: configuración del tracker de Jira NBCH (`TrackerConfig`).
-- `topaz_config.py`: configuración del sincronizador hacia Jira TOPAZ (`TopazSyncConfig`).
+```bash
+pip install -r requirements.txt
+```
 
-#### `loghoras/domain/`
-Reglas de negocio puras, sin llamadas HTTP ni acceso a disco.
+### 2) Variables de entorno
 
-- `time_tracking.py`: parsing de fechas Jira, días hábiles, cálculo de horas y helpers de meses.
-- `novedades.py`: validación del archivo de novedades, extracción de número CDS y armado del summary destino.
+Configurar en `../boveda/config.env` (o variables del sistema):
 
-#### `loghoras/infrastructure/`
-Integraciones externas y persistencia.
+```env
+USUARIO_JIRA_NBCH=usuario@dominio.com
+TOKEN_JIRA_NBCH=token_jira
+```
 
-- `nbch_jira_client.py`: integración con Jira NBCH para leer issues, changelog y transiciones.
-- `log_repository.py`: lectura/escritura de logs mensuales y `novedades.json`.
-- `topaz_jira_client.py`: integración con Jira TOPAZ para buscar duplicados, resolver asignados y crear issues en el proyecto `NBCH`.
-- `issue_type_client.py`: integración con el servicio SAI que sugiere el tipo de issue.
-- `novedades_repository.py`: lectura/escritura del flujo `novedades.json` -> `creados.json`.
+Fallback soportado:
 
-#### `loghoras/application/`
-Casos de uso que coordinan dominio + infraestructura.
+- `TOKEN_JIRA_CDS` (si no está `TOKEN_JIRA_NBCH`)
 
-- `tracker_service.py`: sincroniza estados DOING y actualiza logs mensuales.
-- `novedades_service.py`: procesa novedades, evita duplicados y crea issues en Jira TOPAZ.
+### 3) Ejecución
 
-## Carpetas de datos
+Manual:
 
-- `resultado/`: logs mensuales `jira_log_YYYY-MM.json` y `novedades*.json`.
-- `exports/`: CSVs derivados de los logs.
-- `salidaTeams/`: salidas del proceso de creación de issues en Jira TOPAZ.
+```bash
+python jira_tracker_JSON.py
+```
 
-## Flujo recomendado de mantenimiento
+Automatizada en Windows:
 
-### Tracker Jira NBCH
+- `run_chain.ps1` (PowerShell oculto + log en `logs/chain_YYYYMMDD.log`)
+- `run_chain.vbs` (equivalente VBScript)
 
-1. Ajustar variables de entorno en `../boveda/config.env`.
-2. Ejecutar `jira_tracker_JSON.py`.
-3. Revisar `resultado/jira_log_YYYY-MM.json` y `resultado/novedades.json`.
+### 4) Salida esperada
 
-Si hay que cambiar reglas de negocio:
-- horas hábiles / fechas: `loghoras/domain/time_tracking.py`
-- orquestación del flujo: `loghoras/application/tracker_service.py`
-- acceso a Jira NBCH: `loghoras/infrastructure/nbch_jira_client.py`
-- paths o parámetros globales: `loghoras/shared/config.py`
+Archivo mensual:
 
-### Sincronización a Jira TOPAZ
+- `resultado/jira_log_YYYY-MM.json`
 
-1. Ejecutar `enviar_novedades.py` con el input deseado.
-2. Revisar `salidaTeams/creados.json`.
+Cada item guarda:
 
-Si hay que modificar comportamiento:
-- validación y formato de novedades: `loghoras/domain/novedades.py`
-- reglas del flujo: `loghoras/application/novedades_service.py`
-- acceso a Jira TOPAZ: `loghoras/infrastructure/topaz_jira_client.py`
-- clasificación por IA: `loghoras/infrastructure/issue_type_client.py`
-- configuración: `loghoras/shared/topaz_config.py`
-
-## Variables de entorno usadas
-
-### Tracker Jira NBCH
-
-- `USUARIO_JIRA_NBCH` (usar `fgperez@topazevolution.com`)
-- `TOKEN_JIRA_NBCH` (token obtenido desde la bóveda)
-- `TOKEN_JIRA_CDS` (fallback histórico si no está `TOKEN_JIRA_NBCH`)
-
-### Sync Jira TOPAZ
-
-- `USUARIO_JIRA_NBCH`
-- `TOKEN_JIRA_NBCH`
-- `JIRA_PROJECT`
-- `API_KEY_SAI`
+- issue (`issue_key`, `issue_id`)
+- asignado (`assignee_id`, `assignee_name`)
+- resumen y link
+- entrada activa (`entered_at`, `exited_at: null`, `worked_hours`)
 
 ## Validación básica
 
-Comandos útiles:
-
 ```bash
-python -m compileall jira_tracker_JSON.py enviar_novedades.py loghoras
-python json_to_csv.py resultado/jira_log_2026-03.json exports/jira_entries_flat_2026-03.csv
+python -m compileall jira_tracker_JSON.py loghoras
 ```
-
-## Nota
-
-Los archivos de `resultado/`, `exports/` y `salidaTeams/` son datos generados o insumos operativos. La lógica a mantener vive principalmente en `loghoras/` y en los entrypoints del root.

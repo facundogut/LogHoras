@@ -35,11 +35,3 @@ class MonthlyLogRepository:
         self.ensure_log_file_exists(dt)
         path = self.month_log_path(dt)
         path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding='utf-8')
-
-    def save_novedades(self, novedades: list[dict[str, Any]]) -> str:
-        self.config.output_dir.mkdir(parents=True, exist_ok=True)
-        path = self.config.novedades_path
-        with path.open('w', encoding='utf-8') as handle:
-            json.dump(novedades, handle, ensure_ascii=False, indent=2)
-            handle.flush()
-        return str(path.resolve())

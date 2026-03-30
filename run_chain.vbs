@@ -131,11 +131,5 @@ Dim argsCSV
 argsCSV = Q(workDir & "\json_to_csv.py") & " " & Q(jsonIn) & " " & Q(csvOut)
 RunStepAsync "json_to_csv.py", pythonw, argsCSV
 
-rc = RunStep("enviar_novedades.py", pythonw, Q(workDir & "\enviar_novedades.py"))
-If rc <> 0 Then
-  WriteLog "ABORT: error en paso 2"
-  WScript.Quit rc
-End If
-
 WriteLog "=== CHAIN OK ==="
 WScript.Quit 0
