@@ -87,7 +87,9 @@ Si hay que modificar comportamiento:
 
 ### Tracker Jira NBCH
 
-- `TOKEN_JIRA_CDS` (nombre histórico de la credencial para Jira NBCH)
+- `USUARIO_JIRA_NBCH` (usar `fgperez@topazevolution.com`)
+- `TOKEN_JIRA_NBCH` (token obtenido desde la bóveda)
+- `TOKEN_JIRA_CDS` (fallback histórico si no está `TOKEN_JIRA_NBCH`)
 
 ### Sync Jira TOPAZ
 

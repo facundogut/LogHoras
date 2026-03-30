@@ -17,6 +17,7 @@ def _load_env() -> None:
 @dataclass(frozen=True)
 class TrackerConfig:
     jira_url: str = 'https://nbch.atlassian.net'
+    jira_email: str | None = None
     jira_token: str | None = None
     output_dir: Path = field(default_factory=lambda: Path.cwd() / 'resultado')
     novedades_filename: str = 'novedades.json'
@@ -38,10 +39,16 @@ class TrackerConfig:
 
     @property
     def headers(self) -> dict[str, str]:
-        return {
-            'Accept': 'application/json',
-            'Authorization': f'Bearer {self.jira_token}',
-        }
+        headers = {'Accept': 'application/json'}
+        if not self.jira_email and self.jira_token:
+            headers['Authorization'] = f'Bearer {self.jira_token}'
+        return headers
+
+    @property
+    def auth(self) -> tuple[str, str] | None:
+        if self.jira_email and self.jira_token:
+            return self.jira_email, self.jira_token
+        return None
 
     @property
     def novedades_path(self) -> Path:
@@ -51,4 +58,7 @@ class TrackerConfig:
 def load_tracker_config() -> TrackerConfig:
     _load_env()
     warnings.simplefilter('ignore', InsecureRequestWarning)
-    return TrackerConfig(jira_token=os.getenv('TOKEN_JIRA_CDS'))
+    return TrackerConfig(
+        jira_email=os.getenv('USUARIO_JIRA_NBCH', 'fgperez@topazevolution.com'),
+        jira_token=os.getenv('TOKEN_JIRA_NBCH') or os.getenv('TOKEN_JIRA_CDS'),
+    )

@@ -54,6 +54,7 @@ class NbchJiraClient:
                 url,
                 headers=self.config.headers,
                 params=params,
+                auth=self.config.auth,
                 timeout=self.config.request_timeout,
                 verify=self.config.verify_ssl,
             )
@@ -78,6 +79,7 @@ class NbchJiraClient:
                     url,
                     headers=self.config.headers,
                     params={'startAt': start_at, 'maxResults': 100},
+                    auth=self.config.auth,
                     timeout=self.config.request_timeout,
                     verify=self.config.verify_ssl,
                 )
@@ -114,6 +116,7 @@ class NbchJiraClient:
                 url,
                 headers=self.config.headers,
                 params={'expand': 'changelog'},
+                auth=self.config.auth,
                 timeout=self.config.request_timeout,
                 verify=self.config.verify_ssl,
             )
